@@ -80,13 +80,14 @@
     }
   }
 
-
   system-separator-markup = \markup {
     \center-align
     \vcenter \combine
     \beam #2.0 #0.5 #0.48
     \raise #1.0 \beam #2.0 #0.5 #0.48
   }
+
+  systems-per-page = #4
 }
 
 partTitle = #(define-scheme-function

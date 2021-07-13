@@ -3,13 +3,7 @@
 \include "../definitions.ly"
 
 \paper {
-  % #(set-paper-size "a4landscape")
-  % top-margin = 1\cm
-  % bottom-margin = .5\cm
-  % outer-margin = 2\cm
-  % inner-margin = 1.5\cm
-  % indent = 1\cm
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+  % #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
 }
 
 #(set-global-staff-size 15.87)
@@ -24,7 +18,7 @@
     \score {
       <<
         \new StaffGroup <<
-          \new GrandStaff <<
+          \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Violino"
             \new Staff {
               \set Staff.instrumentName = "I"
@@ -44,7 +38,7 @@
         \new FiguredBass { \IBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 2 = 120 }
     }
   }
 }
