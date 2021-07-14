@@ -261,3 +261,125 @@ IIIViolinoII = {
     es1.\fermata-\critnote \bar "|." %77 finis
   }
 }
+
+IVViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoIV
+    \partial 2 r2 R1*8 %8
+    r2 f'
+    f,4 f g g %10
+    a a b2
+    g4 g a a
+    b b c2
+    a4 a d d
+    h h c c %15
+    a a b b
+    b b a a
+    b b, \once \tieDashed b'2~
+    b a
+    b g %20
+    es f
+    g a
+    b r4 b
+    c8 d c b a f g a
+    b c b as g f g es %25
+    f2. g4
+    c a b c
+    b2 g
+    c b~
+    b a~ %30
+    a g~
+    g f~
+    f e
+    f4 f' g g
+    f f, g'2 %35
+    f4 c g'^\critnote g
+    f f, g'2
+    f a,~
+    a4 a b b
+    c2 d %40
+    c r
+    r c~
+    c a
+    d g,
+    c f, %45
+    b es,
+    a d,
+    es a,
+    g r
+    g' c8 a b c %50
+    f,2 b8 g a b
+    es,2 a8 fis g a
+    d,2 g8 e f g
+    c,2 f8 d es f
+    b,2 es %55
+    f es~
+    es d
+    es r4 es'
+    es, es f f
+    g g as2 %60
+    f4 f g g
+    as as b2
+    g4 g c c
+    a! a b b
+    b b as as %65
+    g g c c
+    c c h h
+    c c, c'2~
+    c h
+    c c %70
+    h c^\critnote
+    d1
+    c2. es4
+    d2. d4
+    c2. c4 %75
+    h2 c
+    h8 g a h c d c b
+    a f g a b c b a
+    g es f g a b a g
+    fis d e? fis g a g f %80
+    e c d e f2
+    f2. g4
+    f f c' c
+    b f c'2
+    b4 f c' c %85
+    b f c'2
+    b4 g a a
+    g d a'2
+    g4 d a' a
+    g d a'2 %90
+    g4 es f f
+    es b f'2
+    es4 b f' f
+    es b f'2
+    es r %95
+    r b'
+    b,4 b c c
+    d d es es
+    f f g g
+    f2 f %100
+    g1
+    a2 b
+    a4 a b b
+    a f b2
+    a4 a b b %105
+    a f b2
+    a4 f c' c
+    b d es c
+    b d, es c
+    d2 d' %110
+    g, c
+    f, b
+    es, a
+    d, g
+    c, d4 a %115
+    b b c c
+    b b c2
+    b4 b c c
+    b b c2
+    b d4 b %120
+    b2 a
+    b1\fermata \bar "|." %122 finis
+  }
+}

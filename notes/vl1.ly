@@ -260,6 +260,116 @@ IIIViolinoI = {
   }
 }
 
+IVViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoIV
+    \partial 2 r2 R1*17 %17
+    r2 b''
+    b,4 b c c
+    d d es2 %20
+    c4 c d d
+    es es f2
+    d4 d g g
+    e e f f
+    d d es es %25
+    d c d e
+    f f, f'2~
+    f e
+    f4 c d2(
+    es4) b c2( %30
+    d4) a b2(
+    c4) g a2
+    g1
+    f4 a' b b
+    a a, b'2 %35
+    a4 f b b
+    a a, b'2
+    a \once \tieDashed f~
+    f e
+    f g4 f %40
+    e2 f
+    g4 f e c
+    f2 f8 d e f
+    g a g f e c d e
+    f g f es d b c d %45
+    es f es d c a b c
+    d es d c b g a b
+    a b a g fis d e? fis
+    g4 g g' g
+    e e f2 %50
+    d4 d es es
+    c c d2
+    h4 h c c
+    a a b2
+    g4 g as as %55
+    as2 g
+    f1
+    es2 \once \tieDashed es~
+    es d
+    es es %60
+    c d
+    es f
+    es r
+    R1*4 %67
+    r2 c''
+    c,4 c d d
+    es es f2 %70
+    d4 d es es
+    f f g g
+    es es as as
+    as2 g~
+    g f~ %75
+    f es
+    d8 h c d es f es d
+    c a b c d es d c
+    b g a b c d c b
+    a fis g a b c b a %80
+    g e f g a2
+    b1
+    a4 f es'! es
+    d b es2
+    d4 b es es %85
+    d b es2
+    d4 b c c
+    b g c2
+    b4 g c c
+    b g c2 %90
+    b4 g as g8 as
+    g4 es as2
+    g4 es as as
+    g es as2
+    g4 es c'8 d c b %95
+    a!2 b~
+    b a
+    b r4 a
+    b2~ b8 d c b
+    a4 f f' f %100
+    f f es es
+    es es d d
+    c c des des
+    c a des2
+    c4 c des des %105
+    c a des2
+    c4 a es' es
+    d! b' g es
+    d b c a
+    b2 g'8 a g f %110
+    e c d e f g f es
+    d b c d es f es d
+    c a b c d es d c
+    b g a b c d c b
+    a f g a b4 es, %115
+    d d es es
+    d b es2
+    d4 b es es
+    d b es2
+    d4 b b' d, %120
+    c1
+    b\fermata \bar "|." %122 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

@@ -510,6 +510,252 @@ IIIBassFigures = \figuremode {
   r1. %77 finis
 }
 
+IVBassi = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoIV
+    \partial 2 b'2 b,4 b c c
+    d d es2
+    c4 c d d
+    es es f2
+    d4 d g g %5
+    e e f f
+    d d es es
+    d c d e
+    f f, f'2~
+    f e %10
+    f4 es d c
+    b2 c
+    d e
+    f r4 f
+    g8 as g f e c d e %15
+    f g f es d c d b
+    c4 d8 es f4 f,
+    b2 r
+    R1*4 %22
+    r2 g'
+    c, f
+    b, es %25
+    b b4 b'
+    a f g a
+    g2 c
+    a b4 f
+    g2 a4 e %30
+    fis2 g4 d
+    e2 f
+    c c,
+    f4 f' e e
+    f2 r4 e %35
+    f2 e
+    f r4 e
+    f2 f
+    f,4 f g g
+    a a b2 %40
+    g4 g a a
+    b b c2
+    a4 a d d
+    h h c c
+    a a b b %45
+    g g a a
+    fis fis g g
+    c c d d
+    g,2 r4 b'
+    c8 d c b a f g a %50
+    b c b a g es f g
+    a b a g fis d e? fis
+    g as g f e c d e
+    f g f es d b c d
+    es4 es c c %55
+    b b es es
+    b' b b, b
+    es2 es,
+    b'1
+    es2 c %60
+    as b
+    c d
+    es r4 es
+    f8 g f es d b c d
+    c4 d8 es f4 d %65
+    es2 r4 es
+    d es8 f g4 g,
+    c2 r
+    r g'
+    c,4 c' as f %70
+    g2 \once \tieDashed c,~
+    c h
+    c c'
+    h2. b4
+    a!2. as4 %75
+    g2. fis4
+    g2 c,
+    f! b,
+    es a,
+    d g, %80
+    c f8 g f es
+    d4 b d e
+    f2 r4 a
+    b2 a4 a
+    b2 r4 a %85
+    b2 a4 a
+    b2 r4 fis
+    g2 fis4 fis
+    g2 r4 fis
+    g2 fis4 fis %90
+    g2 r4 d
+    es2 d4 d
+    es2^\critnote r4 d
+    es2 d4 d
+    es2 es4 e %95
+    f2 r
+    r r4 f
+    b, b c c
+    d d e e
+    \once \tieDashed f1~ %100
+    \once \tieDashed f~
+    f
+    f4 f e e
+    f2 r4 e
+    f f e e %105
+    f2 r4 e
+    f2 r4 a
+    b2 es,!
+    f f,
+    b b' %110
+    c4 b a2
+    b4 a g2
+    a4 g fis2
+    g4 f e2
+    f4 es d c %115
+    b2^\critnote a
+    b r4 a
+    b2^\critnote a
+    b r4 a
+    b2 b %120
+    f' f,
+    b1\fermata \bar "|." %122 finis
+  }
+}
+
+IVBassFigures = \figuremode {
+  r2 r <6>
+  q1
+  q2 q
+  q1
+  q %5
+  <6 5>
+  <6>
+  q2. <6 5>4
+  r1
+  r2 <6> %10
+  r q
+  q q
+  q q
+  r2. <6>4
+  <_!>2 <6> %15
+  r <6->
+  <7> <3>
+  r1*6 %23
+  <_!>1
+  r %25
+  r2. <4! 2>4
+  <6>1
+  <7>2 <_!>
+  <6>2. <\t>4
+  <6>2. <\t>4 %30
+  <6>2. <\t>4
+  <6>1
+  <4>2 <_!>
+  r <6 5>
+  r2. q4 %35
+  r2 q
+  r2. q4
+  r1
+  r2 <6!>
+  <6> q4 <5> %40
+  <6!>2 <6>
+  q4 <5> <_!>2
+  <6>1
+  q2 <_!>
+  <6>1 %45
+  <6->
+  <6>
+  <6>2 <_+>
+  r2. <6>4
+  <_!>2 <6> %50
+  r <6->
+  r <6>
+  <_!> <6>
+  r <6->
+  r q %55
+  <7->1
+  <4>2 <3>
+  r1
+  <4>2 <3>
+  r2 <6-> %60
+  <6> q
+  <6-> <6>
+  r2. <6>4
+  <_!>2 <6>
+  <7> <_->4 <\t> %65
+  r2. <6>4
+  <7>2 <_!>
+  r1
+  r2 <_!>
+  r2 <6>4 <_-> %70
+  <_!>1
+  <4 2>2 <6>
+  r <6->
+  <7-> <6>4 <\t>
+  <7>2 <6>4 <\t> %75
+  <7 _!>2 <6 4>4 <7 _!>
+  <_!>1
+  r
+  r
+  <_+> %80
+  <_!>
+  <6>2. <6 5>4
+  r2. <6 5->4
+  r2 <6 5>
+  r2. q4 %85
+  r2 q
+  r2. q4
+  r2 q
+  r2. q4
+  r2 q %90
+  r2. <6 5->4
+  r2 q
+  r2. q4
+  r2 q
+  r <6>4 <5> %95
+  <_!>1
+  r
+  r2 <6>
+  q q
+  r1 %100
+  <8 2>2 <7 \t>
+  <\t 3> <6 4>
+  <5 3> <7->
+  r2. q4
+  r2 q %105
+  r2. q4
+  r2. <6 5>4
+  <_!>2 <5>4 <6>
+  <6 4>2 <5 3>
+  r2 <6> %110
+  <_!>4 <\t> <6>2
+  r4 <\t> <6>2
+  r4 <\t> <6>2
+  r4 <\t> <6>2
+  r4 <\t> <6> q %115
+  r2 <6 5>
+  r2. q4
+  r2 q
+  r2. q4
+  r1 %120
+  <4>2 <3>
+  r1 %122 finis
+}
+
 % Bassi = {
 %   \relative c {
 %     \clef bass
