@@ -177,3 +177,87 @@ IIViolinoII = {
     c2.\fermata \bar "|." %79 finis
   }
 }
+
+IIIViolinoII = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 3/2 \tempoIII
+    g'4( b) es,2 \once \slurDashed f4( as)
+    d,2 \once \slurDashed es4( g) b,2
+    c b es
+    d8 es f g as2 as
+    as g4 f g a %5
+    b2 d, es
+    f b, d
+    es d4 c d b
+    c d8 es f2 \once \tieDashed f~
+    f es r %10
+    r r \once \tieDashed es~
+    es es b
+    b r c'
+    f, b4 as b c
+    f,2 d' es~ %15
+    es4 d8 c d2. c8 b
+    c2. b8 as b2~
+    b4 as8 g as1
+    g4 f g as b c
+    b2 f g %20
+    c, d r
+    R1.
+    \once \slurDashed a'4( c) f,2 \once \slurDashed g4( b)
+    e,2 \once \slurDashed f4( a) c,2
+    d c \once \tieDashed f~ %25
+    f es! es
+    d \once \tieDashed g1~
+    g2 fis d
+    g b, c
+    d g, b %30
+    c b b'
+    e,1.
+    a?2 \once \slurDashed fis4( a!) d,2
+    d1.
+    g2 \once \slurDashed e4( g) c,2 %35
+    c1.
+    f2 \once \slurDashed d4( f) b,2
+    b c1
+    b \once \tieDashed as!2~
+    as g r %40
+    R1.
+    \once \slurDashed es''4( g) c,2 \once \slurDashed d4( f)
+    h,2 \once \slurDashed c4( es) g,2
+    as g c~
+    c4 b8 a b2. as8 g %45
+    as2 as g
+    f1.
+    es2 g as
+    b es, g
+    as g r %50
+    R1.
+    \once \slurDashed c4( es) as,2 \once \slurDashed b4( des)
+    g,2 \once \slurDashed as4( c) es,2
+    f es as
+    g g as %55
+    b g g
+    as g g
+    f1 d'2
+    es2. d8 c d2~
+    d4 c8 b c2. b8 as %60
+    b2. as8 g as2~
+    as b as
+    f f g
+    f1 d2
+    es( d) d %65
+    es( d) d
+    \once \slurDashed es( d) d'4 es
+    f d f2 es~^\critnote
+    es d4 c d2
+    es r b %70
+    as r as
+    g r g
+    f r f
+    es r es
+    d d es~ %75
+    es d4 c d2
+    es1.\fermata-\critnote \bar "|." %77 finis
+  }
+}

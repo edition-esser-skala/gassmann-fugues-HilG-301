@@ -685,6 +685,7 @@ tocLabelLong = #(define-music-function
 
 tempoI = \tempoMarkup "Allabeve"
 tempoII = \tempoMarkup "Allegro"
+tempoIII = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"
