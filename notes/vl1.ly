@@ -462,6 +462,130 @@ VViolinoI = {
   }
 }
 
+VIViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/8 \tempoVI
+    R4.*8 %8
+    r8 a' cis~
+    cis h e,~ %10
+    e h' d~
+    d cis e,~
+    e e' cis
+    d h cis
+    a h gis %15
+    a h cis
+    d4 d8~
+    d cis r
+    r cis e~
+    e d r %20
+    r r d
+    h cis d
+    fis, g e
+    d4 fis'8~
+    fis e cis %25
+    d4 e16 d
+    d8 cis a'~
+    a h, g'~
+    g a, fis'~
+    fis gis, e'~ %30
+    e fis, d'~
+    d e, cis'
+    h cis16 d e d
+    cis8 e \once \tieDashed a~
+    a gis r %35
+    r gis \once \tieDashed h~
+    h a r
+    r r a
+    fis gis a
+    e d cis %40
+    cis d e
+    d4 r8
+    R4.*3 %45
+    r8 h d~
+    d cis fis,~
+    fis cis' e~
+    e d fis,~
+    fis fis' d %50
+    e cis d
+    h cis ais
+    h h'8. a16
+    g8. fis16 e8
+    a8. g16 fis8~ %55
+    fis16 e d8. g16~
+    g16 fis e8. d16
+    cis8 fis8. e16
+    dis8 h e~
+    e dis16 cis dis8 %60
+    e4 r8
+    h4.~
+    h~
+    h~
+    \once \tieDashed h~ %65
+    h4 r8
+    R4.*5 %71
+    r8 g h~
+    h a d,~
+    d a' c~
+    c h d~ %75
+    d e, c'~
+    c d, h'~
+    h a g
+    fis4 \once \tieDashed c''8~
+    c h r %80
+    r r c~
+    c h r
+    r r a~
+    a g r
+    r r a~ %85
+    a g r
+    r r \once \tieDashed g~
+    g fis r
+    r r \once \tieDashed g~
+    g fis fis~ %90
+    fis h, e~
+    e a, d~
+    d cis16 h cis8
+    d r r
+    R4.*3 %97
+    r8 d, \once \tieDashed fis~
+    fis e a,~
+    a e' g~ %100
+    g fis \once \tieDashed a,~
+    a fis' a
+    \tieDashed a4.~
+    a~
+    a~ %105
+    a8 a h \tieSolid
+    cis a a'~
+    a gis r
+    a, g' \once \tieDashed g~
+    g fis a,~ %110
+    a fis' fis~
+    fis e g,~
+    g fis fis~
+    fis e a
+    g4. %115
+    fis
+    e
+    d8 d' \once \tieDashed fis~
+    fis e r
+    r r \once \tieDashed g~ %120
+    g fis r
+    r r \once \tieDashed g~
+    g fis a
+    g4.
+    fis %125
+    e
+    d
+    cis4 \once \tieDashed d8~
+    d cis16 h cis8
+    d4 fis,8 %130
+    e4.
+    d\fermata \bar "|." %132 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

@@ -472,3 +472,142 @@ VViolinoII = {
     g2.\fermata-\critnote \bar "|."
   }
 }
+
+VIViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/8 \tempoVI
+    r8 d fis~
+    fis e a,~
+    a e' g~
+    g fis a,~
+    a a' fis %5
+    g e fis
+    d e cis
+    d d16 e fis gis
+    a4 a8~
+    a gis r %10
+    r gis h~
+    h a r
+    r r a
+    fis gis a
+    cis, d e %15
+    a,4 g'!8
+    fis4 a8
+    \tieDashed a4.~
+    a~
+    a~ %20
+    a4 a8 \tieSolid
+    h a \once \tieDashed a~
+    a g a
+    fis4 d'8~
+    d cis a %25
+    h h \once \tieDashed h~
+    h a e
+    fis4 d8
+    e4 cis8
+    d4 h8 %30
+    cis4 a8
+    h4 cis8
+    d e \once \tieDashed e~
+    e a cis~
+    cis h e,~ %35
+    e h' d~
+    d cis e,~
+    e e' cis
+    d h cis
+    a h gis %40
+    a4 g8
+    fis g fis
+    g4 fis8
+    e fis e
+    fis4 e8 %45
+    d4 \once \tieDashed h'8~
+    h ais r
+    r r \once \tieDashed cis~
+    cis h r
+    r d h %50
+    cis ais h
+    d, e fis
+    h, cis dis
+    e e'16 d! cis h
+    a8 cis \once \tieDashed d~ %55
+    d16 cis h a g8
+    h \once \tieDashed cis~ cis16 h
+    ais gis fis8 ais
+    h a g
+    fis h h, %60
+    e4 \once \tieDashed e8~
+    e dis r
+    r dis \once \tieDashed fis~
+    fis e r
+    r g e %65
+    fis dis e
+    g a fis
+    e e'8. d!16
+    c8. h16 a8
+    d8. c16 h8 %70
+    a g fis
+    g4 \once \tieDashed g8~
+    g fis r
+    r fis \once \tieDashed a~
+    a g r %75
+    h'4 \once \tieDashed a8~
+    a g4
+    e4.
+    d4 a'8~
+    a g r %80
+    r r \once \tieDashed a~
+    a g r
+    r r \once \tieDashed fis~
+    fis e r
+    r r \once \tieDashed fis~ %85
+    fis e r
+    r r \once \tieDashed e~
+    e d r
+    r r e~
+    e d r %90
+    h4.
+    a
+    g
+    fis8 d \once \tieDashed fis~
+    fis e a,~ %95
+    a e' g~
+    g fis a,~
+    a fis' a
+    \tieDashed a4.~
+    a~ %100
+    a~
+    a4 d8~
+    d cis r
+    r r e~
+    e d r \tieSolid %105
+    r r d
+    cis4 a8
+    h4.
+    cis
+    d4 \once \tieDashed a8~ %110
+    a d d~
+    d cis e,~
+    e d \tieDashed d~
+    d cis fis~
+    fis e4~ %115
+    e8 d4~
+    d8 cis4
+    d8 fis d'~
+    d cis r \tieSolid
+    r r e~ %120
+    e d r
+    r r \once \tieDashed e~
+    e d d~
+    d g, cis~
+    cis fis, h~ %125
+    h e, a~
+    a d, \once \tieDashed g~
+    g4 fis8
+    e4.
+    d4 \once \tieDashed d8~ %130
+    d cis16 h cis8
+    d4.\fermata-\critnote \bar "|." %132 finis
+  }
+}
