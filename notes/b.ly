@@ -756,6 +756,167 @@ IVBassFigures = \figuremode {
   r1 %122 finis
 }
 
+VBassi = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/4 \tempoV
+    \partial 8 r8 R2.*7 %7
+    r4 r r8 d'
+    g, es' d c b a
+    g fis g es' d c %10
+    b a g fis g fis
+    g a b a b cis
+    d4 r8 es d c
+    b a g fis g a
+    b c d c b a %15
+    g f es d es f
+    g a b a g f
+    es d c h c d
+    es f g f es d
+    c b a4 b %20
+    f'2.
+    f,
+    f'
+    f,
+    f'2 b,8 b' %25
+    a g f es d c
+    b4 r8 g' f es
+    d c b4 r8 g'
+    f es d c b c
+    d c d4 b %30
+    a f r
+    f' f, r
+    R2.*3 %35
+    r4 r r8 b
+    es c' b as g f
+    es d es c'? b as
+    g f es d es d
+    es f g a! b b, %40
+    b' as g f es d
+    c d es f g g,
+    g' f es d c h
+    c4 c, r
+    g' c c, %45
+    r g' c
+    r c as
+    g2 g'4
+    c,2.
+    f,2 f'4 %50
+    b,2 b'4
+    es8( d) es( d) es( d)
+    \slurDashed c( b) c( h) c( h) \slurSolid
+    c b as g as g
+    as g as f g as %55
+    b a b a b a
+    g f g fis g fis
+    g f es d es c
+    es d es c d es
+    f g f es d c %60
+    b es d es f f,
+    b4 b' r4
+    r f b
+    b, r8 c b a
+    g4 r r8 c %65
+    b a g4 r
+    g'8 fis g4 es
+    \tieDashed d2.~
+    d~
+    d~ %70
+    d2 g,4
+    d'2.~
+    d~
+    d~
+    d~ %75
+    d \tieSolid
+    g4 g,8 a b c
+    d2 d,4
+    g'8 fis g fis g f
+    es d es d es d %80
+    es d c b c b
+    c b c a b c
+    d2 d,4
+    g8 es' d c b a
+    g2.\fermata \bar "|." %85 finis
+  }
+}
+
+VBassFigures = \figuremode {
+  r8 r2.*8 %8
+  r4. <6>8 q <6\\>
+  r4. <6>8 q q %10
+  q <6\\> r2
+  r4 <6> <8 6>8 <\t \t>
+  <_+>4. <6>8 <6 4> <6>
+  q <6\\> r2
+  <6>2 q8 <6!> %15
+  <6>2.
+  q
+  q
+  q
+  r4 <6 5>2 %20
+  <5 3>2 <6 4>4
+  <\t \t> <7 5>2
+  <6 4>2 <5 3>4
+  <\t \t> <6 4>2
+  <7>2. %25
+  <6>
+  r2 <6>8 q
+  q2 r8 q
+  q q q2
+  q2. %30
+  q
+  r2.*5 %36
+  r4. <6>8 q <6 _->
+  <6>2 r8 q
+  q <6 _-> r2
+  r <4>4 %40
+  <3> <6>8 <6 _-> <8> <6!>
+  r2 <4>4
+  <_!> <6>8 <6!> <8> <6>
+  r2.
+  <6 4>8 <5 _!> r2 %45
+  r4 <6 4>8 <5 _!>4.
+  r2 <6\\>4
+  <_!>2.
+  <_->2 <_!>4
+  <_->2 <_!>4 %50
+  <_->2 <_!>4
+  <8 3>2. \bassFigureExtendersOn
+  q
+  q4. q8 <6 5>4
+  q2 q8 q %55
+  <8 3>2.
+  q
+  q2 <6 5>4
+  q2 q8 q \bassFigureExtendersOff
+  <_!>2. %60
+  r4 <6> <8 6>8 <7 5>
+  r2.
+  r4 <6 4>8 <5 3>4.
+  r <6>8 <6 4> <6\\>
+  r2. %65
+  <6>8 <6\\> r2
+  r <6\\>4
+  <_+>2.
+  <9- 8>4 <\t 7> <8 \t>
+  <\t 6> <7 \t> <\t 5> %70
+  <6 \t> <\t 4>2
+  <5 _+>2.
+  <6 4>
+  <5 _+>
+  <6 4>
+  <5 _+>
+  r2.
+  <4>2 <_+>4
+  <8 3>2. \bassFigureExtendersOn
+  q
+  q4. q8 <6 5>4
+  q2 q8 q \bassFigureExtendersOff
+  <4>2 <_+>4
+  r8 <1> q q q q
+  q2.
+}
+
 % Bassi = {
 %   \relative c {
 %     \clef bass

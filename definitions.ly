@@ -687,6 +687,7 @@ tempoI = \tempoMarkup "Allabeve"
 tempoII = \tempoMarkup "Allegro"
 tempoIII = \tempoMarkup "Allegro"
 tempoIV = \tempoMarkup "Presto"
+tempoV = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

@@ -370,6 +370,98 @@ IVViolinoI = {
   }
 }
 
+VViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoV
+    \partial 8 d8 g es' d c b a
+    g fis g es' d c
+    b a g fis g fis
+    g a b a b cis
+    d4 r8 b' a g %5
+    f! e d4 r8 b'
+    a g f e d4
+    r d c!
+    b r8 a' g fis
+    g a b c b a %10
+    g fis g4 r
+    r r b
+    a d, r
+    g,8 a b c b a
+    g4 r r %15
+    es8 f g a g f
+    es4 r r
+    c8 d es f es d
+    c4 c c
+    c'8 d es4 d %20
+    c8 a c a b d
+    b d c es c es
+    d f d b c a
+    c a d b d b
+    es c es c d4 %25
+    r r r8 f,
+    b g' f es d c
+    b a b g' f es
+    d c b a b a
+    b a b c d e %30
+    f4 r8 d c b
+    a g f4 r8 d'
+    c b a g f g
+    a b c4 es!
+    d8 c d es f4~ %35
+    f es8 as g f
+    es4 r8 f es d
+    es4 r r8 f
+    es d es4 g
+    g2 f4~ %40
+    f es8 d es h
+    c2.
+    h4 c8 d es d
+    c4 r8 as' g f
+    es d c4 r8 as' %45
+    g f es d c d
+    es2 c4
+    h2 r4
+    c'8 c, c' b as g
+    as2 a4 %50
+    b8 b, b' as g f
+    g2.~
+    g4 g2~
+    g \once \tieDashed f4~
+    f2.~ %55
+    f4 b2~
+    b4 b2~
+    b \once \tieDashed b4~
+    b2.
+    a! %60
+    b4 r8 g f es
+    d c b4 r8 g'
+    f es d c b a
+    b es d c b a
+    g fis g es' d c %65
+    b a g fis g fis
+    g a b a b cis
+    d4 d, \once \tieDashed d'~
+    d8 h c4. a8
+    b4. g8 a4~ %70
+    a8 fis g4 g'
+    fis8 es d c b a
+    g b' a b a b
+    a g fis es d c
+    b b a b a b %75
+    a g fis es d c
+    b4 b'2
+    a2.
+    g4 b'2~
+    b4 b2~ %80
+    b a4
+    \once \tieDashed a2.~
+    a
+    g8 es, d c b a
+    g2.\fermata \bar "|." %85 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

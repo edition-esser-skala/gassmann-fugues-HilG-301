@@ -383,3 +383,92 @@ IVViolinoII = {
     b1\fermata \bar "|." %122 finis
   }
 }
+
+VViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoV
+    \partial 8 r8 R2.*3
+    r4 r r8 a'
+    d, b' a g f e %5
+    d cis d b' a g
+    f e d cis d cis
+    d e fis d e fis
+    g4 r8 es' d c
+    b a g r r es' %10
+    d c b a g a
+    b c d4 g^\critnote
+    fis8 es d c b a
+    g fis g a b c
+    d c b a g f %15
+    es d es f g a
+    b a g f es d
+    c h c d es f
+    g f es d c b
+    a b c4 b8 b' %20
+    a f a f f b
+    f b a c a c
+    b d b f a f
+    a f b f b f
+    c' a c a b d %25
+    c b a g f es
+    d4 r r
+    R2.*2
+    r4 r r8 c' %30
+    f, d' c b a g
+    f e f d' c b
+    a g f e f e
+    f g a f g a
+    b a b c d c %35
+    b as g f es d
+    es4 r8 c' b as
+    g f es4 r8 c'
+    b as g f es4
+    es'2 es4 %40
+    d8 c b as g f
+    es2 \once \tieDashed d4~
+    d r r8 g'
+    c, as' g f es d
+    c h c as' g f %45
+    es d c h c h
+    c d es d es fis
+    g g, g' f es d
+    es2 e4
+    f8 f, f' es d c %50
+    des2 d4
+    es2.~
+    es4 es2~
+    es \once \tieDashed es4~
+    es2. %55
+    d4 \tieDashed d2~
+    d4^\critnote d2~
+    d2 c4~
+    c2.~ \tieSolid
+    c4 r f %60
+    b,8 g' f es d c
+    b a b g' f es
+    d c b a b c
+    d4 r8 es, d c
+    b a g4 r8 es' %65
+    d c b a g4
+    r g' g
+    fis d d'
+    es2 d4~
+    d c2 %70
+    b b'4
+    a8 g fis es d c
+    b g' fis g fis g
+    fis es d c b a
+    g g fis g fis g
+    fis es d c b a
+    b4 \once \tieDashed g'2~
+    g4 fis8 e? fis4
+    g4 g'2~
+    g4 g2~
+    g g4
+    \once \tieDashed g2.~
+    g4 fis8 e? fis4
+    g8 es, d c b a
+    g2.\fermata-\critnote \bar "|."
+  }
+}
