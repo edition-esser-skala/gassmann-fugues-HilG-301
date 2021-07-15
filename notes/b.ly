@@ -1130,6 +1130,191 @@ VIBassFigures = \figuremode {
   r4. %132 finis
 }
 
+VIIBassi = {
+  \relative c {
+    \clef bass
+    \twotwotime \key a \major \time 2/2 \tempoVII
+    R1*17 %17
+    a'2 fis'
+    gis, e'
+    fis, d' %20
+    e, cis'
+    d, h'
+    cis, a'
+    gis4 e fis gis
+    a h cis dis %25
+    e2 r4 e
+    fis4. e8 dis4~ dis16 h cis dis
+    e4. dis8 cis4~ cis16 a h cis
+    dis4. cis8 h4~ h16 gis a h
+    cis4. h8 a4~ a16 fis gis a %30
+    h4. a8 gis4 e
+    fis2 h,
+    e a,
+    dis? gis,
+    cis cis'~ %35
+    cis his
+    cis fis,
+    gis4. fis8 e2
+    fis4. e8 dis2
+    e4. dis?8 cis2 %40
+    dis4. cis8 his2
+    cis e
+    dis2. eis4
+    fis2 fis,8 gis a h
+    cis1~ %45
+    cis2 h
+    fis' fis,
+    h r
+    R1*4 %52
+    d2 h'
+    cis, a'
+    h, g' %55
+    a, fis'
+    g, e'
+    fis, \once \tieDashed d'~
+    d cis
+    d4 e fis gis %60
+    a2 a
+    h4~ h16 h cis d e4. d8
+    cis4~ cis16 a h cis d4. cis8
+    h4~ h16 g a h cis4. h8
+    a4~ a16 fis g a h4. a8 %65
+    g4~ g16 e fis g a4. g8
+    fis2 d~
+    d cis~
+    cis h~
+    h ais %70
+    h h'~
+    h a!~
+    a g~
+    g fis
+    gis a~ %75
+    a gis
+    a r
+    R1*5 %82
+    e2 cis'
+    dis, h'
+    cis, a' %85
+    h, gis'
+    a, fis'
+    gis, e'
+    dis4 h cis dis
+    e fis gis a %90
+    h1~
+    h2 a
+    e1~
+    e~
+    e~ %95
+    e~
+    e~
+    e~
+    e~
+    e~ %100
+    e
+    a2 a
+    h4~ h16 h cis d e4 e,
+    a4~ a16 a h cis d4 d,
+    gis~ gis16 gis a h cis4 cis, %105
+    fis~ fis16 fis gis a h4 h,
+    e2 a,
+    d e
+    a, a'~
+    a gis %110
+    a4 a, cis d
+    e2 e,
+    a1\fermata \bar "|." %113 finis
+  }
+}
+
+VIIBassFigures = \figuremode {
+  r1*18 %18
+  <6>1
+  q %20
+  q
+  q
+  q
+  q2 <6!>4 <6 5>
+  <8 3>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %25
+  r1
+  r2 <6>
+  r q
+  r <6 _+>
+  r <6> %30
+  <_+> <6>
+  <7> <7 _+>
+  <7+> <7>
+  q <7 5+ _+>
+  r1 %35
+  <2+>2 <6 _+>
+  r1
+  <5+>2 <6>
+  r q
+  r q %40
+  r <6 _+>
+  r <6>
+  <7> <6!>4 <6 5>
+  <9>2 <8>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <4>2 <_!> %45
+  <6\\> <_!>
+  <4> <_+>
+  r1*6 %53
+  <6>1
+  <6!> %55
+  <6>
+  q2 <_!>
+  <6>1
+  <4! 2>2 <6 5!>
+  <8 3>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %60
+  r1
+  <7>2 <_!>
+  <6 5!>1
+  <6! 5>2 <5!>
+  <6 5>1 %65
+  q
+  <6>2 q
+  <4! 2> <6>
+  <4 2> <6!>
+  <4 2> <6> %70
+  r1
+  <4 2>2 <6>
+  <4+ 2> <6>
+  <4 2> <6>
+  <6 5>1 %75
+  <2>2 <6>
+  r1*7 %83
+  <6>2 <_+>
+  <6>1 %85
+  <6 _+>2 <5+>
+  <6>1
+  q
+  <6>2. \bassFigureExtendersOn q4
+  <8 3>2. q4 \bassFigureExtendersOff %90
+  <4>2 <_!>
+  <6\\>1
+  r
+  <8 2>2 <7 \t>
+  <\t 3> <6 4> %95
+  <5 3>1
+  <8 2>2 <7 \t>
+  <\t 3> <6 4>
+  <9 7> <10 5>
+  <8 6> <9 4> %100
+  <7 5> <8 3>
+  r1
+  <7> 2 q
+  q q
+  q q %105
+  q q
+  q1
+  <6 5>
+  r2 <6 4>4 <5 3>
+  <4 2>2 <6>4 <5> %110
+  <9>4 <\t> <6> <\t>
+  <4>2 <3>
+  r1 %113 finis
+}
+
 % Bassi = {
 %   \relative c {
 %     \clef bass

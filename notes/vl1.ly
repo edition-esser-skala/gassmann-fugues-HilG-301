@@ -586,6 +586,125 @@ VIViolinoI = {
   }
 }
 
+VIIViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \major \time 2/2 \tempoVII
+    a'2 fis'
+    gis, e'
+    fis, d'
+    e, cis'
+    d, h' %5
+    cis, a'
+    gis4 e fis gis
+    a h cis dis
+    e2 r4 e
+    fis4. e8 dis4~ dis16 h cis dis %10
+    e4. dis8 cis4~ cis16 a h cis
+    dis4. cis8 h4~ h16 gis a h
+    cis4. h8 a4~ a16 fis gis a
+    h4. a8 gis4~ gis16 e fis gis
+    fis1 %15
+    gis4 e \once \tieDashed a2~
+    a gis
+    a a'
+    e1
+    d %20
+    cis
+    h
+    a2 cis
+    h4 gis a h
+    a1 %25
+    gis4 e gis'2
+    a h4. a8
+    gis4~ gis16 e fis gis a4. gis8
+    fis4~ fis16 dis e fis gis4. fis8
+    e4~ e16 cis dis e fis4. e8 %30
+    dis4~ dis16 h cis dis e2~
+    e8 e fis e dis2~
+    dis8 dis e dis cis2~
+    cis8 cis dis cis his2
+    cis r %35
+    R1
+    cis2 a'
+    h,! gis'
+    a, fis'
+    gis, e' %40
+    fis, dis'
+    e, cis'~
+    cis h!
+    a1
+    gis %45
+    ais2 h~
+    h ais
+    h r4 h'
+    cis4. h8 a!4~ a16 fis g? a
+    h4. a8 g4~ g16 e fis g %50
+    a4. g8 fis2
+    e1
+    d2 r
+    a'1
+    g %55
+    fis
+    e
+    d2 a
+    g1
+    fis %60
+    e2 a'~
+    a g~
+    g fis~
+    fis e~
+    e d~ %65
+    d cis
+    d4~ d16 fis g a h4. a8
+    g4~ g16 e fis g a4. g8
+    fis4~ fis16 d e fis g4. fis8
+    e4~ e16 cis d e fis4. e8 %70
+    d2 h
+    cis1
+    h
+    a
+    R1*2 %76
+    a2 fis'
+    gis, e'
+    fis, d'
+    e, cis' %80
+    h4. cis16 dis e2~
+    e dis
+    e r4 e
+    fis4. e8 dis4~ dis16 h cis dis
+    e4. dis8 cis4~ cis16 a h cis %85
+    dis4. cis8 h4~ h16 gis a h
+    cis4. h8 a4~ a16 fis gis a
+    h4. a8 gis2
+    fis1
+    e~ %90
+    e2 d!~
+    d cis
+    h e'~
+    e d~
+    d cis %95
+    h gis'
+    fis4. gis16 a h4. a8
+    gis4~ gis16 e fis gis a4. gis8
+    fis4~ fis16 d e fis gis4. fis8
+    e4~ e16 cis d e fis4. e8 %100
+    d4~ d16 h cis d e4. d8
+    cis2 a'~
+    a gis~
+    gis fis~
+    fis e~ %105
+    e d~
+    d cis
+    h1
+    a4~ a16 cis, d e fis4 e
+    d4~ d16 h cis d e4 d %110
+    cis1
+    h
+    a\fermata \bar "|." %113 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble

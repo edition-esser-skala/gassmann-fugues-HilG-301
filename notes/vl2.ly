@@ -611,3 +611,116 @@ VIViolinoII = {
     d4.\fermata-\critnote \bar "|." %132 finis
   }
 }
+
+VIIViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key a \major \time 2/2 \tempoVII
+    R1*8 %8
+    e2 cis'
+    dis, h' %10
+    cis, a'
+    h, gis'
+    a, fis'
+    gis, e'~
+    e d!~ %15
+    d cis
+    h1
+    a2 a'
+    h4. a8 gis4~ gis16 e fis gis
+    a4. gis8 fis4~ fis16 d e fis %20
+    gis4. fis8 e4~ e16 cis d e
+    fis4. e8 d4~ d16 h cis d
+    e4. d8 cis4. dis8
+    e2 d
+    cis1 %25
+    h2 e'
+    cis fis
+    h, e
+    dis1
+    cis %30
+    h2 h
+    a~ a8 a h a
+    gis2~ gis8 gis a gis
+    fis2~ fis8 fis gis fis
+    e2 e %35
+    dis1
+    cis2 r
+    r cis'~
+    cis h!~
+    h a~ %40
+    a gis~
+    gis gis
+    fis2. gis4
+    gis2 fis~
+    fis \once \tieDashed e!~ %45
+    e d!
+    cis r
+    h' g'
+    a,! fis'
+    g, e' %50
+    fis, d'~
+    d cis
+    d r4 d
+    e4. d8 cis4~ cis16 a h cis
+    d4. cis8 h4~ h16 g? a h %55
+    cis4. h8 a4~ a16 fis g a
+    h4. a8 g4~ g16 e fis g
+    fis2 fis
+    e1-\critnote
+    d %60
+    cis2 r
+    R1
+    a''
+    g
+    fis %65
+    e
+    d2 fis
+    e1
+    d
+    cis %70
+    h4. cis8 d4 d
+    cis~ cis16 cis d e fis4. e8
+    dis4~ dis16 h cis dis e4. d8
+    cis4~ cis16 a h cis d2~
+    d cis %75
+    h1
+    a2 r4 d
+    e4. d8 cis4~ cis16 a h cis
+    d4. cis8 h4~ h16 gis a h
+    cis4. h8 a2~ %80
+    a gis
+    fis1
+    e2 cis'
+    h1
+    a %85
+    gis
+    fis
+    e
+    fis
+    gis %90
+    fis
+    gis2 a
+    gis gis
+    fis4. gis16 a h4. a8
+    gis4~ gis16 e fis gis a2 %95
+    gis \once \tieDashed e'~
+    e d4~ d16 h cis d
+    e4. d8 cis4~ cis16 a h cis
+    d4. cis8 h4~ h16 gis a h
+    cis4. h8 a4~ a16 fis gis a %100
+    h4. a8 gis4~ gis16 e fis gis
+    a2 cis
+    d~ d4~ d16 h cis d
+    cis2~ cis4~ cis16 a h cis
+    h2~ h4~ h16 gis a h %105
+    a2~ a4~ a16 fis gis a
+    gis2 \once \tieDashed a~
+    a gis
+    a4~ a16 a, h cis d4 cis
+    h2 \once \tieDashed h~ %110
+    h \once \tieDashed a~
+    a gis
+    a1\fermata \bar "|." %113 finis
+  }
+}
