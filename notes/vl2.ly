@@ -813,3 +813,93 @@ VIIIViolinoII = {
     e4. r4 r8\fermata \bar "|." %88 finis
   }
 }
+
+IXViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoIX
+    R1.*6 %6
+    c2 c'2. h8 a
+    h4 g a2 d~
+    d4 c8 h c4 a h2
+    e2. a,4 d2~ %10
+    d4 g, c2 \once \tieDashed c~
+    c h4 a h2
+    c4 h a g f2~
+    f4 h8-\critnote a g4 f e2~
+    e4 a8 g fis4 e \once \tieDashed d2~ %15
+    d4 g8 fis g4 a \tieDashed h2~
+    h4 a~ a g~ g fis \tieSolid
+    g2 r d
+    d'2. c8 h c4 a
+    h2 e2. d8 c %20
+    d4 h c2. a4
+    h2. g4 a2
+    g4 a h2 d
+    c1.
+    h %25
+    a
+    g1 a2~
+    a4 g8 fis g2 g
+    fis fis e
+    c dis e %30
+    R1.*3
+    a,2 a'2. gis8 fis?
+    gis4 e fis?2. gis4 %35
+    a1 g2~
+    g f!1
+    e d2~
+    d c1
+    h \once \tieDashed a2~ %40
+    a r4 fis' g a
+    d,1.
+    g4 a g f e f8 g
+    c,1.
+    f4 e f g f2 %45
+    R1.
+    f2 f'2. e8 d
+    e4 c d2 g~
+    g4 f8 e f4 d e2
+    a2. d,4 g2~ %50
+    g4 c, f2. b,4
+    e2. a,4 d2~
+    d cis4 h cis2
+    d r a,
+    a'2. g8 f g4 e %55
+    f2 b4 a g2~
+    g4 a8 g fis1
+    g2 g f
+    f1 e2
+    d g4 f e d %60
+    c2 r g'
+    g r r
+    r e' d~
+    d4 h c2. a4
+    h2. g4 a2~ %65
+    a4 f g2 e
+    a fis a
+    g h d~
+    d4 c8 h c2 e~
+    e d1 %70
+    c h2~
+    h a1
+    g fis2
+    g2. f8 e f2
+    e r e' %75
+    d g2. f8 e
+    f4 d e2 a~
+    a4 g8 f g2. a8 g
+    f2 g4 f e2
+    d1 r2 %80
+    c c c4 h
+    a g f2 h4 a
+    g f e2 a4 g
+    f e d2 g4 f
+    e2 f g %85
+    a4 a2 a a4
+    a a2 a a4
+    g2. f4 e2
+    d1.
+    c1 r2\fermata \bar "|." %90 finis
+  }
+}

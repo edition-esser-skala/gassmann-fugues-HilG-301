@@ -797,6 +797,96 @@ VIIIViolinoI = {
   }
 }
 
+IXViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/2 \tempoIX
+    c2 c'2. h8 a
+    h4 g a2 d~
+    d4 c8 h c4 a h2
+    e2. a,4 d2~
+    d4 g, c2 c~ %5
+    c h4 a h2
+    c r g
+    g'2. fis8 e fis4 d
+    e2 a2. g8 fis
+    g4 e f1 %10
+    e e2
+    d g2. f4
+    e d c2. f8 e
+    d4 c h2. e8 d
+    c4 h a2. d8 c %15
+    h2. c4 d2
+    c h a
+    h r r
+    R1.*3 %21
+    r2 d d
+    h4 d g2 \once \tieDashed g~
+    g4 fis8 e fis1~
+    fis4 e8 d e1~ %25
+    e4 d8 c d1~
+    d4 c8 h c1~
+    c4 h8 a h2. c4
+    a2. h4 g2~
+    g4 a fis2 e %30
+    e'2. dis8 cis? dis4 h
+    c!2 fis2. e8 dis?
+    e2. d8 c d2
+    c4 a r2 r
+    e'2. d8 c d4 h %35
+    c2 f f
+    e1 d2~
+    d c1
+    h \once \tieDashed a2~
+    a g1 %40
+    fis?2 d'2. c4
+    b c b a g a8 h
+    c1 b2
+    a4 b a g f g8 a
+    b1 a2 %45
+    g1.
+    f
+    R1.*6 %53
+    d2 d'2. cis8 h
+    cis4 a b2 e~ %55
+    e4 a, d2. e8 d
+    cis2 c2. d8 c
+    h!2 a4 h8 c d4 c
+    h4 g a h \once \tieDashed c2~
+    c h4 a g f %60
+    e2 e' d
+    g2. f8 e f4 d
+    e2 a2. fis4
+    g2. e4 f2~
+    f4 d e2. c4 %65
+    d2. c8 h \once \tieDashed c2~
+    c1 d4 c
+    h2 g' f
+    e1 g2
+    f1 e2~ %70
+    e d1
+    c h2~
+    h a1
+    g2 \once \tieDashed d'1~
+    d2. c8 h c2~ %75
+    c4 h8 a h4 g a2
+    d2. c8 h c4 a
+    h2 e4 d c2
+    d4 c h2 c~
+    c h4 a h2 %80
+    c e1
+    f4 e d1
+    e4 d c1
+    d4 c h1
+    c2. b8 a g4 c %85
+    c c2 c c4
+    <c d,> q2 q q4
+    <h! d,>1 \once \tieDashed c2~
+    c h4 a h2
+    c1 r2\fermata \bar "|." %90 finis
+  }
+}
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble
