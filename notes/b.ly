@@ -1315,6 +1315,175 @@ VIIBassFigures = \figuremode {
   r1 %113 finis
 }
 
+VIIIBassi = {
+  \relative c {
+    \clef bass
+    \key e \major \time 6/8 \tempoVIII
+    R2.*8 %8
+    e8 e' e e dis dis
+    dis cis cis cis h h %10
+    h a a a gis fis
+    gis fis e gis4 ais8
+    h4 h8 cis4.
+    h a!
+    gis fis4 h8 %15
+    h a a gis h h
+    cis h h ais dis his
+    cis h ais gis4 ais8
+    h4 dis8 cis4.
+    h ais %20
+    gis fis
+    h h4 h8
+    ais gis fis h cis4
+    ais8 h4 gis8 ais4
+    fis8 gis4 eis4. %25
+    fis fis4 e8
+    dis4. e4 dis8
+    cis dis e fis4 e8
+    dis e fis gis4 r8
+    cis, cis' cis cis h h %30
+    h a a a gis gis
+    gis fis fis fis e dis
+    e4. eis
+    fis4 a8 gis4 cis8~
+    cis h4 a \once \tieDashed d8~ %35
+    d cis4 h e8~
+    e d4 cis h8~
+    h a4 gis \once \tieDashed fis8~
+    fis gis \once \tieDashed a~ a gis16 fis gis8
+    a4 cis8 h4. %40
+    a gis
+    fis e
+    a a
+    gis4 e8 a h8. a16
+    gis8 a8. gis16 fis8 gis8. fis16 %45
+    e8 fis8. e16 dis4.
+    e r4 r8
+    R2.*2
+    r4 r8 h h' h %50
+    h a a a g g
+    g fis fis fis e e
+    e d cis d4 dis8
+    e4 gis8 fis4.
+    e dis %55
+    cis4 cis'8 a gis fis
+    gis dis his gis4 r8
+    cis' gis eis cis4 r8
+    fis cis ais fis4 r8
+    h' fis dis h4 r8 %60
+    e4 e8 h'4 h,8
+    cis4. fis
+    h, fis'
+    h, dis
+    e h'4 h,8 %65
+    e4 e8 h'4 h,8
+    e4 e8 h'4 h,8
+    e e' e e dis dis
+    dis cis cis cis h h
+    h a a a gis fis %70
+    gis fis gis ais gis ais
+    h4. h
+    h h,
+    h h
+    h4 h'8 ais ais ais %75
+    h4 h8 ais ais ais
+    h4 h8 h a a
+    a gis gis gis fis fis
+    h h h, e4 e8
+    h'4. cis %80
+    gis a
+    e fis4 dis8
+    e4 ais,8 h4 h8
+    e4. h
+    e h %85
+    e8 gis h e h gis
+    h h h h, h h
+    e4. r4 r8\fermata \bar "|." %88 finis
+  }
+}
+
+VIIIBassFigures = \figuremode {
+  r2.*8 %8
+  r4. <4 2>8 <6 5>4
+  <4 2>8 <6 5>4 <4 2>8 <6 5>4 %10
+  <4 2>8 <6 5>4 <4 2>4.
+  <6> r4 <6 5>8
+  r4. <7>8 <6!>4
+  <7>8 <6>4 <7>8 <6>4
+  <7>8 <6>4<7>8 <6>4 %15
+  <2>8 <\t> <6> <\t> <6 4> <\t \t>
+  <2>8 <\t> <6> <\t> <5> <6 5>
+  <_+> <\t> <6> <\t> <6!> <\t>
+  r4 <6>8 <7> <6\\>4
+  <7+>8 <6>4 <7>8 <6>4 %20
+  <7>8 <6>4 <7 5>8 <6 4> <5 _+>
+  r4. <4! 2>
+  <6>4 <_+>8 <6 5>8 <_+>4
+  <6 5+>8 <3>4 <6! 5>8 <3>4
+  <6 5>8 <3>4 <6 5>4. %25
+  <_+> r4 <4+ 2>8
+  <6>4. r4 q8
+  r4 <5>8 <_+>4 <6>8
+  <5+>4 <_+>8 q4.
+  r4. <4 2>8 <\t \t> <6> %30
+  <4 2> <\t \t> <6> <4 2> <\t \t> <6>
+  <4 2> <\t \t> <6> <6 4+>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <6>4. <6 5!>
+  <_!>4 <6>8 <7> <6>4
+  <2!>8 <\t> <6> <\t> <6> <\t> %35
+  <2> <\t> <6> <\t> <6> <\t>
+  <2> <\t> <6> <7> <6> <7>
+  <6> <7> <6> <7> <6> <7>
+  <6!> <6 5!>4 <5 2>8 <\t \t>4
+  r4 <6>8 <7 _!>8 <6 \t>4 %40
+  <7>8 <6>4 <7>8 <6>4
+  <7>8 <6!>4 <7! 5>8 <6 4> <5 3>
+  r4. <4+>
+  <6> <6 5>8 <_+>4
+  <6 5>8 <3>4 <6 5>8 <3>4 %45
+  <6 5>8 <3>4 <6 5>4.
+  r2.*3
+  r4. <_!> %50
+  <4 2>8 <\t \t> <6> <4! 2> <\t \t> <6>
+  <4 2> <\t \t> <6!> <4 2!> <\t \t> <6>
+  <4+ 2>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6>4 <6 5!>8
+  <9 _+> <8 \t> <6> <7> <6>4
+  <7>8 <6>4 <7>8 <6\\>4 %55
+  r4. <5 3>4 \bassFigureExtendersOn q8
+  <_+>4. q4 r8
+  q4. q4 r8
+  q4. q4 r8
+  <3>4. q4 \bassFigureExtendersOff r8 %60
+  r4. <6 4>8 <5 3>4
+  <9 7>8 <8 6>4 <7 5>8 <6 4> <5 _+>
+  r4. <7 5>8 <6 4> <5 _+>
+  r4. <6 5!>
+  <9 4>8 <8 3>4 <4>8 <3>4 %65
+  r4. <7 5>8 <6 4> <5 3>
+  r4. <7 5>8 <6 4> <5 3>
+  r4. <4 2>8 <6 5>4
+  <4 2>8 <6 5>4 <4 2>8 <6 5>4
+  <4 2>8 <6 5>4 <4 2> \bassFigureExtendersOn q8 \bassFigureExtendersOff %70
+  <6>4. <6 5>
+  r <8 2>8 <7! \t> <\t 3>
+  <\t 4> <6 \t>4 <\t \t>8 <5 3>4
+  <8 2>4 <7 5>8 <\t \t> <6 4>4
+  <5 \t>8 <\t 3>4 <7!>4. %75
+  <4>8 <3>4 <7!>4.
+  <4>8 <3>4 <4 2>8 <\t \t>4
+  <4 2>8 <6>4 <6 2>8 <\t \t>4
+  <7 4> <\t 3>8 r4.
+  <6 4>8 <5 3>4 <9 4>8 <8 3>4 %80
+  <6 4>8 <5 3> <5! \t> <9 4!> <8 3>4
+  <6 4>8 <5 3>4 <9 4>8 <8 3> <6 5>
+  <9 4> <8 3> <\t \t> <6 4> <5 3>4
+  r4. <7 5>8 <6 4> <5 3>
+  r4. <7 5>8 <6 4> <5 3> %85
+  <8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+  <4>4. <3>
+  r2. %88 finis
+}
+
 % Bassi = {
 %   \relative c {
 %     \clef bass

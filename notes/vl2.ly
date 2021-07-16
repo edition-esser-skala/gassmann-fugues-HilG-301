@@ -724,3 +724,92 @@ VIIViolinoII = {
     a1\fermata \bar "|." %113 finis
   }
 }
+
+VIIIViolinoII = {
+  \relative c' {
+    \clef treble
+    \key e \major \time 6/8 \tempoVIII
+    e8 e' e e dis dis
+    dis cis cis cis h h
+    h a a a gis fis
+    gis fis e gis4 ais8
+    h4 dis8 cis4. %5
+    h ais
+    gis fis4 ais8
+    h4. h8 a a
+    gis4 h8 a4 h16 a
+    gis4 a16 gis fis4 gis16 fis %10
+    e4 fis16 e dis8 e fis
+    h a gis h4 cis8
+    h4 dis8 e4.
+    dis cis
+    h r4 r8 %15
+    R2.*3
+    h,8 h' h h ais ais
+    ais gis gis gis fis fis %20
+    fis e e e dis cis
+    dis cis dis eis dis eis
+    fis4 ais8 gis4.
+    fis e!
+    dis cis %25
+    cis cis8 h cis
+    fis4. e4 r8
+    e fis gis cis, dis e
+    fis gis ais gis ais his
+    cis4 e8 dis4. %30
+    cis h!
+    a dis,
+    \once \tieDashed gis~ gis
+    fis4. r4 r8
+    R2.*5 %39
+    a8 a' a a gis gis %40
+    gis fis fis fis e e
+    e d d d cis h
+    cis h cis dis cis dis
+    e4 gis8 fis4.
+    e dis %45
+    cis h
+    e,8 gis gis fis h h
+    h a a gis cis cis
+    cis h h h cis h
+    ais4. h4 fis'8 %50
+    e4 fis8 d4 e8^\critnote
+    cis4 d8 h4 cis8
+    cis d e fis4.
+    fis8 e e e dis dis
+    dis cis cis cis his his %55
+    cis gis cis cis cis cis
+    \once \tieDashed his4.~ his8 dis16 gis, ais? his
+    \once \tieDashed cis4.~ cis8 cis, h'
+    \once \tieDashed ais4.~ ais8 cis16 fis, gis ais
+    \once \tieDashed h4.~ h8 h, a' %60
+    gis4 e'8 e dis dis
+    dis cis cis cis h ais
+    h fis dis' cis h ais
+    h fis h h a a
+    a gis gis fis4. %65
+    gis4 gis8 fis e dis
+    e h gis' fis e dis
+    e4 h'8 a h8. a16
+    gis8 a8. gis16 fis8 gis8. fis16
+    e8 fis8. e16 dis4. %70
+    e e
+    dis4 dis'8 cis4 dis8
+    e4 e8 e dis h
+    h4 a8 a4 gis8
+    fis4. g8 g g %75
+    fis4. g8 g g
+    fis4. e
+    dis8 e h' a4.
+    a4 fis8 gis4 e'8
+    e dis dis dis cis cis %80
+    cis h h h a a
+    a gis gis gis fis fis
+    fis e e e dis dis
+    e e' gis fis e dis
+    e e gis fis e dis %85
+    e e e e e e
+    e e e dis dis dis
+    e4. r4 r8\fermata \bar "|." %88 finis
+  }
+}
