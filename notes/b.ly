@@ -2028,13 +2028,241 @@ XIBassFigures = \figuremode {
   <4>4 <3>2. %57 finis
 }
 
-% Bassi = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+XIIBassi = {
+  \relative c {
+    \clef bass
+    \key d \minor \time 4/4 \tempoXII
+    d2 a'~
+    a4 g f2~
+    f4 e d2
+    cis b'~
+    b4 a g2~ %5
+    g4 f e2
+    f2. fis4
+    g2. gis4
+    a2 gis4 e
+    fis gis a a, %10
+    a' g f d
+    e2 r4 d
+    d' c! h gis
+    a2. gis4
+    a2 r %15
+    r4 e a g!
+    f2 e~
+    e d
+    d'4 c b!2
+    a r %20
+    r \once \tieDashed a~
+    a a,
+    d d'
+    g,4 a b h
+    a h cis2 %25
+    d2. d4
+    cis d cis2
+    r4 c h c
+    h2 r4 b
+    a b a2 %30
+    r4 a d c!
+    b g c b
+    a2 b~
+    b a
+    c r %35
+    f, c'~
+    c4 b a2~
+    a4 g f2
+    e d'~
+    d4 c b2~ %40
+    b4 a g2
+    a1
+    b2 h
+    c h4 g
+    a h c c, %45
+    c' h a f^\critnote
+    g2 r
+    r \once \tieDashed g~
+    g g,
+    c c'4 b! %50
+    a4. b16 c d4 c
+    b g a h
+    c b a f
+    g a b2
+    f a %55
+    b r4 b
+    a2 b8 a g f
+    es?2 r8 c d es?
+    f2 r
+    r \once \tieDashed f~ %60
+    f f,
+    b b'4 a
+    g2 c4 b
+    a2 r4 a
+    g2. a4 %65
+    f2. g4
+    e1
+    d2 r8 d e fis
+    g2 \once \tieDashed b~
+    b4 a g2 %70
+    g, r8 g' e g
+    c,2 r8 c' a c
+    f,2 r8 f d f
+    b,2 r8 b' g b
+    e,2 r8 e cis e %75
+    a,2 r4 a'
+    a,1
+    \once \tieDashed e'~
+    e2 a,4 a'
+    a2 gis %80
+    a r4 a
+    c h a2
+    d,2. dis4
+    e2 r
+    r r4 h %85
+    h' a gis2
+    a4 e a g
+    f d h' a
+    gis2 r8 e fis gis
+    a2 \once \tieDashed e~ %90
+    e1
+    d2 a'~
+    a4 g f2~
+    f4 e d2
+    cis b'~ %95
+    b4 a g2~
+    g4 f e2
+    f2. fis4
+    g2. gis4
+    a1 %100
+    a,~-\tastoE
+    a~
+    a~
+    a~
+    a~ %105
+    a~
+    a~
+    a~
+    a~
+    a~ %110
+    a~
+    a~
+    a~
+    a~
+    a~ %115
+    a~
+    a2 a
+    d gis,
+    \once \tieDashed a1~
+    a2 gis %120
+    a1
+    d4 e f g
+    a1
+    a,
+    d\fermata \bar "|." %125 FINIS
+  }
+}
+
+XIIBassFigures = \figuremode {
+  <1>2 q
+  r1*7 %8
+  r2 <6>4 <_+>
+  <7> <6 5>2. %10
+  <3>4 <3!> <3> <\t>
+  <_+>1
+  <3>4 q q <\t>
+  <4> <3> <2!> <6>
+  r1 %15
+  r4 <6 4>2 <4+ 2>4
+  <6>2 <6\\>
+  <5! 4>4 <6\\ 3>2.
+  r4 <6> <7> <6>
+  <_+>1 %20
+  r2 <7 _+>
+  <\t 4>4 <6 \t> <5 _+>2
+  r <8 _!>4 <7! _+>
+  r2 <6>4 <6\\>
+  <_+>2 <6>4 <5!> %25
+  <5>2 <6>
+  <7>4 <6> <7>2
+  r4 <6> <7> <6>
+  <7>2. <6>4
+  <7 _+> <6> <7  _+>2 %30
+  r4 <6 4> <_+> <\t>
+  <6>2. <2>4
+  <6>2 <6 5>
+  <2> <6>
+  <4> <3> %35
+  r1
+  <2>4 <4> <6>2
+  r4 q q <4!>
+  <6>2 <6->
+  r4 <6> q <4> %40
+  <5 2> <\t \t> <7> <6>
+  q2. <5>4
+  <3> <6> <\t> <5>
+  r2 <6>4 <_!>
+  <7> <6 5>2. %45
+  <3>4 q q2
+  <_!>1
+  r2 <7 _!>
+  <\t 4>4 <6 \t> <5 \t> <\t _!>
+  r2. <2>4 %50
+  <6>2. <4+ 2>4
+  <6>2. <5!>4
+  r <\t> <6>2
+  <7 4>4 <6 5->2.
+  r2 <6>4 <5-> %55
+  r1
+  <6>4 <5->2.
+  <7>4 <6> <7 _->4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  r1
+  r2 <7- 3> %60
+  <\t 4>4 <6 \t> <5 \t> <\t 3>
+  r2. <\t>4
+  <6->2 <_!>4 <\t>
+  <6>1
+  <7>2 <6>4 <\t> %65
+  <7>2 <6>4 <\t>
+  <7>2 <6\\>
+  <_!> <_+>8 <\t> <6!> <\t>
+  r2 <6>
+  r1 %70
+  <8>4 <7> <6 4>4. \bassFigureExtendersOn q8
+  <8>4 <7> <6 4>4. q8
+  <8>4 <7> <6 4>4. q8
+  <8>4 <7> <6 4>4. q8
+  <8>4 <7> <6\\ 4>4. q8 \bassFigureExtendersOff %75
+  <8 _+>4 <7 \t> <6 4> <\t \t>
+  <5 4>2 <\t _!>
+  <5! 4> <\t _+>
+  <8 5! _+>4 <7 \t \t>2.
+  <5 2!>2 <\t \t> %80
+  r1
+  <6>
+  <9 7>4 <8 6!> <7 5> <\t \t _+>
+  <5! _+>1
+  r2. <6\\>4 %85
+  <\t> <8> <6 5 _!>2
+  r2. <4+ 2>4
+  <6>2 <3>4 <6+ 4+ 2!>
+  <6 _!>2 r8 <5! _+> <6!> <\t>
+  r2 <5! 4> %90
+  <\t _!> <6\\ \t>
+  r2 <_+>
+  <2->4 <6\\> <6>2
+  r4 <6\\> <5> <6->
+  <6>2 <3> %95
+  <\t> <5>
+  <6>4 q <7> <6\\>
+  <6>2. <\t>4
+  <_->2 <_!>4 <\t>
+  <_+>1 %100
+  r1*16 %116
+  r2 <_+>
+  r2 <7 5 _!>4 <6 4+>8 <5 _!>
+  <_+>1
+  <6 4>2 <7 5 _!>4 <6 4+>8 <5 _!> %120
+  <_+>1
+  <8 3>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff
+  <5 _+>2 <6 4>
+  <5 \t> <\t _+>
+  r1 %125 FINIS
+}

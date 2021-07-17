@@ -1099,3 +1099,122 @@ XIViolinoII = {
     f4 e f r\fermata \bar "|." %57 finis
   }
 }
+
+XIIViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoXII
+    R1*8 %8
+    a'2 e'~
+    e4 d c2~ %10
+    c4 h a2
+    gis f'~
+    f4 e d2~
+    d4 c h2
+    a2. h4 %15
+    c2. cis4
+    d2 cis4 a
+    h cis d2
+    a2. g4
+    a2 r4 g %20
+    g' f e cis
+    d2 cis
+    d4 a d c
+    b c d2
+    cis4 d e2 %25
+    d r4 f
+    e f e2
+    r4 e d e
+    d2 r4 d
+    cis d cis2 %30
+    d a
+    d g,
+    f f
+    g f~
+    f e %35
+    f r
+    R1*7 %43
+    c'2 g'~
+    g4 f e2~ %45
+    e4 d c2
+    h a'~
+    a4 g f2~
+    f4 e d2
+    e1 %50
+    f2. fis4
+    g2. f4
+    e2 f~
+    f4 es d2
+    c f4 es %55
+    d2 r4 d
+    c2 b
+    g r8 e f g
+    f2 r4 es
+    es' d c a %60
+    b2. a4
+    \once \tieDashed b1~
+    b2 g
+    f c'
+    b2. c4 %65
+    a2. b4
+    g1
+    f2 r
+    g d'~
+    d4 c b2 %70
+    r8 g a b c2~
+    c4 b a2
+    r8 f g a b2~
+    b4 a g2
+    r8 e f g a2~ %75
+    a4 g f2
+    e \once \tieDashed a~
+    a gis
+    r8 e fis? gis a2
+    R1 %80
+    a2 e'~
+    e4 d c2~
+    c4 h? a2
+    gis f'~
+    f4 e d2~ %85
+    d4 c h2
+    c2. cis4
+    d2. dis4
+    e2 h
+    a1 %90
+    g!
+    f2 e4 cis
+    d e f \once \tieDashed a~
+    a g f2
+    e r %95
+    r b'~
+    b4 a g2
+    a a
+    b h
+    a r4 a %100
+    h cis d a
+    a' g f e
+    d2. c!4
+    b2. a4
+    g2 b'~ %105
+    b4 a g2~
+    g4 f e2~
+    e4 d cis2~
+    cis4 h? \once \tieDashed a2~
+    a b~ %110
+    b1
+    a~
+    a2 \once \tieDashed g~
+    g1
+    f~ %115
+    f2 \once \tieDashed e~
+    e1
+    d4 d'2 cis8 h?
+    a4 h cis e
+    d d2 cis8 h %120
+    a4 h cis e
+    d1
+    cis2 \once \tieDashed d~
+    d cis
+    d1\fermata \bar "|." %125 FINIS
+  }
+}

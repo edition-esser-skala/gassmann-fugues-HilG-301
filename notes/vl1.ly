@@ -1087,9 +1087,119 @@ XIViolinoI = {
   }
 }
 
-% ViolinoI = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
+XIIViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \minor \time 4/4 \tempoXII
+    R1*16 %16
+    d'2 a'~
+    a4 g f2~
+    f4 e d2
+    cis b'~ %20
+    b4 a g2~
+    g4 f e2
+    f2. fis4
+    g2. gis4
+    a2. g4 %25
+    f2 b~
+    b b
+    a1~
+    a2 g~
+    g g %30
+    f fis4.(\trill e16 fis)
+    g2 e4.(\trillE d16 e)
+    f2 d4 g
+    e c f a,
+    g1 %35
+    f2 e4 c
+    d e f \once \tieDashed f~
+    f e d h
+    c2 r4 b
+    b' a g e %40
+    f2. e4
+    f g f e
+    d g2 f4
+    e2 d4 h
+    c d e f %45
+    g2 r
+    r r4 f
+    f ' e d h
+    c2. h4
+    c2 c~ %50
+    c a
+    d1
+    g,2 c~
+    c b!
+    a r %55
+    b f'~
+    f4 es d2~
+    d4 c b2
+    a g'~
+    g4 f es2~ %60
+    es4 d c2
+    d1
+    es2 e
+    f f~
+    f4 g^\critnote e2~ %65
+    e4 f d2~
+    d4 e cis2
+    d2. c4
+    b2 r
+    d g~ %70
+    g4 f e2
+    r8 c d e f2~
+    f4 e d2
+    r8 b c d e2~
+    e4 d cis2 %75
+    r8 a h? cis d2~
+    d4 c8 h c2
+    r8 h c d e2~
+    e4 d c2
+    h1 %80
+    R
+    a2 e'~
+    e4 d c2
+    h r4 d,
+    d' c h2 %85
+    \once \tieDashed e,1~
+    e
+    d2-\critnote r
+    e'2. d!4
+    c2 h~ %90
+    h cis
+    d cis4 a
+    b! cis d2~
+    d4 cis d b
+    a2 r %95
+    d r4 d
+    e d2 cis4
+    \once \tieDashed d1~
+    d
+    cis2 a'~ %100
+    a4 g f2~
+    f4 e d2~
+    d4 c! b2~
+    b4 a g2
+    b'2. a4 %105
+    g2. f4
+    e2. d4
+    cis2. a?4
+    \once \tieDashed a1~
+    a2 a %110
+    g \tieDashed g~
+    g f
+    f f
+    e e~
+    e d %115
+    d d \tieDashed
+    cis1
+    d4 f'2 e8 d
+    cis4 d e g
+    f f2 e8 d %120
+    cis4 d e g
+    f1
+    e2 f
+    e1
+    d\fermata \bar "|." %125 FINIS
+  }
+}
