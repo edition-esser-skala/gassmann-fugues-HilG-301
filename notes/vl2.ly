@@ -903,3 +903,136 @@ IXViolinoII = {
     c1 r2\fermata \bar "|." %90 finis
   }
 }
+
+XViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoX
+    R1*9 %9
+    c2 c' %10
+    h r4 g
+    as2 f
+    g r4 es
+    d es8 f g4 f
+    es c r es %15
+    d es8 f g4 f
+    es c c'2~
+    c4 b as2
+    g1
+    f2 r4 as %20
+    g as8 b c4 e,
+    f g8 as g4 f
+    e c f2~
+    f e
+    f4 as g f %25
+    f2 e
+    f as
+    g1
+    f
+    es! %30
+    des
+    c2 r4 as''
+    g f e d
+    c2 r4 as'
+    g f e d %35
+    c2 c4 b
+    as2 c
+    b b4 as!
+    g2 b
+    as2 as %40
+    b as~
+    as g
+    as r
+    es es'
+    d r4 b %45
+    c2 as
+    b r4 g
+    f g8 as b4 as
+    g es r g
+    f g8 as b4 as %50
+    g1
+    as2 c
+    des c
+    b1
+    as4 c es f %55
+    es2 b
+    as f
+    es es'
+    des b
+    c es %60
+    des b
+    c4 b as b8 c
+    d!4 c b c8 d
+    es4 d c d8 es
+    f4 es d es8 f %65
+    es2 es~
+    es d
+    es c~
+    c4 h8 a? h2
+    c r4 es %70
+    d es8 f g4 h,
+    c d8 es d4 c
+    h g c2~
+    c h
+    c4 es d c %75
+    c2 h
+    c c
+    des!1
+    c
+    b %80
+    as
+    g
+    f2 d!
+    c r
+    R1 %85
+    g'4 as8 b c4 b
+    as b8 c d4 c
+    b c8 d es4 d
+    c2 f,
+    b es, %90
+    as d,
+    g4 f es c'
+    g2 r
+    c, c'
+    h r4 g %95
+    as2 f
+    g r4 es
+    d es8 f g4 f
+    e2 g
+    f r4 as' %100
+    g2 g4 e
+    f g8 as g4 f
+    e2 f~
+    f e
+    f r4 c %105
+    b as g f
+    e d c c'
+    b as g f
+    e c c'2
+    des1 %110
+    c
+    b
+    as
+    g
+    f2 r %115
+    c c'
+    b r4 g
+    as2 f~
+    f e
+    f r4 c' %120
+    b as g f
+    e d c c'
+    b as g f
+    e2 r
+    r f' %125
+    e f~
+    f e
+    f c
+    b a
+    b1 %130
+    g2 f
+    e \once \tieDashed f~
+    f e
+    f1\fermata \bar "|." %134 finis
+  }
+}

@@ -1673,6 +1673,258 @@ IXBassFigures = \figuremode {
   r1. %90 finis
 }
 
+XBassi = {
+  \relative c {
+    \clef bass
+    \key f \dorian \time 4/4 \tempoX
+    R1*19 %19
+    f,2 f' %20
+    e r4 c
+    des2 b
+    c r4 as
+    g as8 b c4 b
+    as4 f r as %25
+    g as8 b c4 b
+    as f f'2~
+    f e~
+    e des~
+    des \once \tieDashed c~ %30
+    c b
+    \tieDashed c1~
+    c~
+    c~
+    c~ %35
+    c2 e \tieSolid
+    f a,
+    b d
+    es g
+    as f %40
+    g as
+    des, es
+    as, as'
+    g es
+    b r %45
+    R1
+    r2 r4 es
+    b'2 b,
+    es r4 es4
+    b'2 b, %50
+    es es
+    as, as'4 g
+    f g as as~
+    as2 g
+    as4 as c d! %55
+    es2 g,
+    as4 b8 c b4 as
+    g2 as~
+    as g
+    as as~ %60
+    as g
+    as4 g f g8 as
+    b4 as g as8 b
+    c4 b as b8 c
+    d4 c b c8 d %65
+    es4 es, g es
+    b'2 b,
+    es r
+    R1
+    c2 c' %70
+    h r4 g
+    as2 f
+    g r4 es
+    d es8 f g4 f
+    es c r es %75
+    d es8 f g4 f
+    es c c'2~
+    c b~
+    b as~
+    as g~ %80
+    g f~
+    f es
+    d4 es8 f g4 f
+    es c r es
+    d es8 f g4 f %85
+    es f8 g as4 g
+    f g8 as b4 as
+    g as8 b c4 b
+    a8 f g a b4 as
+    g8 es f g as4 g %90
+    f8 d es f g4 f
+    es d c c'
+    c2 h
+    c r4 es,
+    d es8 f g4 h, %95
+    c d8 es d4 c
+    h g c2~
+    c h
+    c b
+    as f %100
+    c' r
+    R1
+    c2 f,
+    c'1
+    f,2 f %105
+    c'1~
+    c~
+    c~
+    c2 c'4 a
+    b2 g %110
+    as! f
+    g e
+    f as,
+    b c
+    des1 %115
+    c~
+    c~
+    c~
+    c~
+    c~ %120
+    c~
+    c~
+    c~
+    c2 c'~
+    c b~ %125
+    b as
+    g1
+    f2 a
+    b f
+    b, b'~ %130
+    b as!4 f
+    c'2 h
+    c c,
+    f1\fermata \bar "|." %134 finis
+  }
+}
+
+XBassFigures = \figuremode {
+  r1*20 %20
+  <6>2. <_!>4
+  r2 <6 _->4 <5 \t>
+  <_!>2. <6>4
+  <7>2 <_!>4 <\t>
+  <6>2. q4 %25
+  <7>2 <_!>4 <\t>
+  <6>1
+  <4 2>2 <6>
+  <4 2>2 <6>
+  <4 2!>2 <6> %30
+  <4 2->2 <6 _->4 <5 \t>
+  <_!>1
+  r
+  r
+  r %35
+  r2 <6>4 <5>
+  r2 <6>4 <5->
+  <_->2 <6>4 <5->
+  r2 <6>4 <5->
+  r2 <6-> %40
+  <6 5->1
+  <6 5>
+  r
+  <6>1
+  r %45
+  r
+  r
+  <4>2 <3>
+  r1
+  <4>2 <3> %50
+  r1
+  r
+  <6->4 <\t>2.
+  <4- 2>2 <6>
+  r <6>4 <6 5> %55
+  r2 <6>
+  q <_->4 <\t>
+  <6>1
+  <4- 2>2 <6>4 <5->
+  r1 %60
+  <4- 2>2 <6>4 <5->
+  r1
+  <_!>
+  r
+  r %65
+  r2 <6>
+  <4> <3>
+  r1
+  r
+  r %70
+  <6>2. <_!>4
+  r2 <6>4 <5>
+  <_!>2. <6>4
+  <7>2 <_!>4 <\t>
+  <6>2. q4 %75
+  <7>2 <_!>4 <\t>
+  <6>2 <_!>
+  <4 2-> <6 _->4 <5 \t>
+  <4- 2>2 <6>4 <5>
+  <4- 2>2 <6>4 <5-> %80
+  <4 2>2 <6->4 <5>
+  <6! 4! 2>2 <6>
+  <7>2 <_!>4 <\t>
+  <6>2. q4
+  <7>2 <_-> %85
+  r1
+  r
+  r
+  <6>2. <\t>4
+  <6>2. <\t>4 %90
+  <6>2 <_!>4 <\t>
+  <6> <6!>2.
+  <5 2>2 <\t \t>
+  r2. <6>4
+  <6!>2 <_!>4 <6> %95
+  <6>2 <3>4 <\t>
+  <6> <\t>2.
+  <2>2 <6>4 <5>
+  <_!>2 <\t>
+  <6>1 %100
+  <_!>
+  r
+  <_!>
+  <4>2 <_!>
+  r1 %105
+  <_!>
+  r
+  r
+  r2. <6>4
+  <9 _->2 <6 5-> %110
+  <9> <6- 5>
+  <9> <6 5>
+  <9> <6>
+  <6 5 _-> <_!>
+  <3>1 %115
+  <_!>
+  <9- 7>2 <7 5>
+  <8 6> <6 4>
+  <5 4> <\t _!>
+  <6 4>1 %120
+  <5 _!>
+  r
+  r
+  r
+  <4 2->2 <\t \t> %125
+  <4! 2> <6>
+  <7> <6!>
+  r <6>
+  <_-> <_!>
+  <_->1 %130
+  <4! 2>2 <6>
+  <_!> <7>
+  <4> <_!>
+  r1 %134 finis
+}
+
+% Bassi = {
+%   \relative c {
+%     \clef bass
+%
+%   }
+% }
+%
+% BassFigures = \figuremode {
+%
+% }
+
 % Bassi = {
 %   \relative c {
 %     \clef bass

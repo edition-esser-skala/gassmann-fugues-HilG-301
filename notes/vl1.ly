@@ -887,6 +887,149 @@ IXViolinoI = {
   }
 }
 
+XViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 4/4 \tempoX
+    f2 f'
+    e r4 c
+    des2 b
+    c r4 as
+    g as8 b c4 b %5
+    as f r as
+    g as8 b c4 b
+    as f f'2~
+    f4 es des2
+    c r4 es %10
+    d! es8 f g4 h,
+    c d8 es d4 c
+    h g \once \tieDashed c2~
+    c h
+    c4 es d c %15
+    c2 h
+    c es
+    e f4 f,
+    f2 e
+    f c'~ %20
+    c e4 g
+    f2 des
+    c1
+    b2 g
+    f4 c'2 c4 %25
+    b2 g
+    f4 as c2
+    b4. as16 b c4 b
+    as4. g16 as b4 as
+    g4. f16 g as4 g %30
+    f4. g16 as g4 f
+    e c c'2
+    b4 as g f
+    e c c'2
+    b4 as g f %35
+    e2 r
+    r f'4 es!
+    des2 f
+    es es4 des
+    c2 des~ %40
+    des4 b c2
+    b1
+    as4 b c d
+    es2 r4 g
+    f g8 as b4 d, %45
+    es f8 g f4 es
+    d b es2~
+    es d
+    es4 g f es
+    es2 d %50
+    es4 es, es' des
+    c2 r
+    R1*2
+    as2 as' %55
+    g r4 es
+    f2 des
+    es r4 c
+    b c8 des es4 des
+    c as r c %60
+    b c8 des es4 des
+    c des8 es f4 es
+    d es8 f g4 f
+    es f8 g as4 g
+    f g8 as b4 as %65
+    g2 g
+    f1
+    es2 f
+    d1
+    c2 r %70
+    R1
+    c2 as
+    g1
+    f2 d
+    c4 g' f es %75
+    f2 d
+    c e'
+    f g4 f
+    es!2 f4 es
+    des2 es4  des %80
+    c2 des4 c
+    h g \once \tieDashed c2~
+    c h
+    c4 c, \once \tieDashed c'2~^\critnote
+    c b!4 c8 d %85
+    es4 d c d8 es
+    f4 es d es8 f
+    g4 f es f8 g
+    f4 es d es8 f
+    es4 d c d8 es %90
+    d4 c h c8 d
+    c4 d es2
+    d1
+    c2 r
+    R1*5 %99
+    f,2 f' %100
+    e r4 c
+    des2 b
+    c r4 as
+    g as8 b c4 b
+    as f as'2 %105
+    g4 f e d?
+    c2 r4 as'
+    g f e d?
+    c2 c~
+    c b~ %110
+    b as~
+    as g~
+    g f~
+    f e
+    f f' %115
+    e r4 c
+    des2 b
+    c r4 as
+    g as8 b c4 b
+    as f as'2 %120
+    g4 f e? d?
+    c2 as'
+    g4 f e d!
+    c2 c
+    des1 %125
+    c
+    b
+    as2 c
+    des c
+    des1 %130
+    e2 f4 as,
+    g2 as
+    g1
+    f\fermata \bar "|." %134 finis
+  }
+}
+
+% ViolinoI = {
+%   \relative c' {
+%     \clef treble
+%
+%   }
+% }
+
 % ViolinoI = {
 %   \relative c' {
 %     \clef treble
