@@ -1036,3 +1036,66 @@ XViolinoII = {
     f1\fermata \bar "|." %134 finis
   }
 }
+
+XIViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoXI
+    R1*2
+    r2 f
+    e4 r8 c32 d e f64 g a8 f d \tuplet 3/2 8 { d16 e f }
+    g8 e c \tuplet 3/2 8 { c16 d e } f8 \tuplet 3/2 8 { d16 e f } g8 f %5
+    e c16 d e c d e f8 c f4
+    r8 \tuplet 3/2 8 { d'16 e f } g g, f'8 e \tuplet 3/2 8 { c16 d e } f f, es'8
+    d g16 f e4 f2
+    e4. \tuplet 3/2 8 { c16 d e } f4. fis8
+    g f e4 f f %10
+    e8 c r e~ e \tuplet 3/2 8 { d16 e f } g g, f'8
+    e \tuplet 3/2 8 { c16 d e } f f, e'8 d \tuplet 3/2 8 { b16 c d } e e, d'8
+    cis \tuplet 3/2 8 { a16 h cis } d d, c'8 h \tuplet 3/2 8 { g16 a h } c c, c'8~
+    c h16 a h4 c8 c e c~
+    c \tuplet 3/2 8 { a16 h c } d d, c'8 h \tuplet 3/2 8 { g16 a h } c c, b'8 %15
+    a8. d16 h8.( a32 h) c4 e
+    c8 c32 d e f g8 r r2
+    r r4 f
+    e2 d
+    c b %20
+    a g4 \once \tieDashed e~
+    e8 d16 cis d8 d'~ d cis16 h cis4
+    d r a2
+    f4 r8 d32 e f g64 a b8 g e \tuplet 3/2 8 { e16 f g }
+    a8 f d \tuplet 3/2 8 { d16 e f } g8 \tuplet 3/2 8 { e16 f g } a8 g %25
+    f \tuplet 3/2 8 { fis16 g a } b8 a g \tuplet 3/2 8 { e16 f g } a8 g
+    f \tuplet 3/2 8 { d16 e f } g8 f e \tuplet 3/2 8 { cis16 d e } f8 e
+    d4 r8 a' b \tuplet 3/2 8 { b16 c d } e e, d'8
+    cis \tuplet 3/2 8 { a16 h? cis } d d, c'8 b g32a b c d8 b
+    a2 g8 g32 a b c d8 r %30
+    g,4 a2 g4~
+    g fis g8 d g4~
+    g f2 \once \tieDashed es4~
+    es d2 \once \tieDashed g4~
+    g8 \tuplet 3/2 8 { e16 f g } a8 g \once \tieDashed f2~ %35
+    f8 \tuplet 3/2 8 { d16 e f } g8 f e2
+    d c
+    h a
+    g4 g g r
+    r2 c' %40
+    a4 r8 f32 g a b64 c d8 b g \tuplet 3/2 8 { g16 a b }
+    c8 a f \tuplet 3/2 8 { f16 g a } b8 \tuplet 3/2 8 { g16 a b } c8 b
+    a f16 g a8 f32 g a h c8 c32 d e f g8 r
+    r \tuplet 3/2 8 { a,16 b c } d d, c'8 h \tuplet 3/2 8 { g16 a h } c c, \once \tieDashed c'8~
+    c4 h b a %45
+    g2 f4 a
+    b2 a
+    g c4 b~
+    b a2 \once \tieDashed g4~
+    g f2 e4~ %50
+    e d2 c4
+    c'8 \tuplet 3/2 8 { d16 e f } g g, f'8 e \tuplet 3/2 8 { c16 d e } f f, \once \tieDashed f'8~
+    f4 e f d8 \tuplet 3/2 8 { b16 c d }
+    e e, d'8 c \tuplet 3/2 8 { a16 b c } d d, c'8 b \tuplet 3/2 8 { g16 a b }
+    c c, b'8 a4 g2 %55
+    f4 d' g, c8 f,
+    f4 e f r\fermata \bar "|." %57 finis
+  }
+}

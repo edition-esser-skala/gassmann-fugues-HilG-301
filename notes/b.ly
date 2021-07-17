@@ -1914,16 +1914,119 @@ XBassFigures = \figuremode {
   r1 %134 finis
 }
 
-% Bassi = {
-%   \relative c {
-%     \clef bass
-%
-%   }
-% }
-%
-% BassFigures = \figuremode {
-%
-% }
+XIBassi = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoXI
+    R1*5 %5
+    c'2 a4 r8 f32 g a b64 c
+    d8 b g \tuplet 3/2 8 { g16 a b } c8 a f \tuplet 3/2 8 { f16 g a }
+    b8 \tuplet 3/2 8 { g16 a b } c8 b a f16 g a8 f32 g a h
+    c8 g c b a \tuplet 3/2 8 { a16 b c } d d, c'8
+    b \tuplet 3/2 8 { g16 a b } c c, b'8 a f a h %10
+    c4 c, g' g,
+    c f, b e,
+    a d, g c,
+    r g'' e r8 c32 d e f64 g
+    a8 f d \tuplet 3/2 8 { d16 e f } g8 e c \tuplet 3/2 8 { c16 d e } %15
+    f8 \tuplet 3/2 8 { d16 e f } g8 f e d c4
+    r c' c8 \tuplet 3/2 8 { a16 b c } d d, c'8
+    h \tuplet 3/2 8 { g16 a h } c c, b'8 a \tuplet 3/2 8 { a16 b c } d d, \once \tieDashed d'8~
+    d4 c2 b4~
+    b a2 g4~ %20
+    g f e cis
+    d r8 d a'4. g8
+    f e d f e \tuplet 3/2 8 { e16 f g } a8 a,
+    d4 f g c,
+    f b, e cis %25
+    d8 \tuplet 3/2 8 { d16 e fis } g g, f'8 e \tuplet 3/2 8 { c16 d e } f f, e'8
+    d \tuplet 3/2 8 { b!16 c d } e e, d'8 cis \tuplet 3/2 8 { a16 h cis } d8 cis
+    d d32 e f g a2 g4~
+    g fis g8 g b \once \tieDashed g~
+    g fis16 e fis8 d g4 b %30
+    c2 b
+    a4 d, g8 g, g' f!
+    es2 d
+    c b
+    a2~ a8 a d c! %35
+    h2 c4 e
+    f8.( e32 f) g16 g, f'8 e8.( d32 e) f16 f, e'8
+    d8.( c32 d) e16 e, d'8 cis8.( h32 cis) d16 d, c'8
+    h8.( a32 h) c2 b4~
+    b a g2 %40
+    f4 a b2
+    a g4 e
+    f f'8 d c4 r
+    R1*2 %45
+    c'2 a4 r8 f32 g a b64 c
+    d8 b g \tuplet 3/2 8 { g16 a b } c8 a f \tuplet 3/2 8 { f16 g a }
+    b8 \tuplet 3/2 8 { g16^\critnote a b } c8 b a2
+    g f
+    e d %50
+    c h4 c
+    c1~
+    c~
+    c~
+    c2 c8 c c c %55
+    d4 b2 a8 b
+    c4 c, f r\fermata \bar "|." %57 finis
+  }
+}
+
+XIBassFigures = \figuremode {
+  r1*5 %5
+  r2 <6>
+  <6>4 <8>8 <7> r4 <8>8 <7->
+  r4 <_!>8 <\t> <6>2
+  r4. <2>8 <6>4. <4+ 2>8
+  <6>8 <7!> r <2> <6>4. <6 5>8 %10
+  r2 <6 4>8 <5 _!> <8 _->8 <7 \t>
+  <7->4 <8>8 <7> <7>4 <8>8 <7>
+  <7 _+>4 <8>8 <7!> <7 _!>2
+  <4>4 <_!> <6>2
+  r4 <8>8 <7> <_!> <5!> <8> <7-> %15
+  r4 <_!>8 <\t> <6>2
+  r <6>8 q r <2>
+  <6> <6 _!> r <2> <6>4 q8 <5>
+  <4 2>4 <6>8 <5> <4 2>4 <6>8 <5>
+  <4 2>4 <6>8 <5> <4 2>4 <6>8 <5> %20
+  <4+ 2>4 <6> <7>8 <6\\> <6 5>4
+  <9>4 <8> <4> <_+>8 <\t>
+  <6>2 <7 4>4 <_+>4
+  r4 <6>2.
+  r <6>8 <5> %25
+  <_!> <_+> r <6> q4. q8
+  <6->4. <6>8 <6> <_+> r <6>
+  r4 <_+> <2> <6>8 <5>
+  <4+>4 <6>8 <5!> <_->4 <6>
+  <5 2>4 <\t \t>2 <6>4 %30
+  <5 _-> <6 \t> <7> <6>
+  <7> <6\\> r4. <4! 2>8
+  <6> <5-> <4 2>4 <6>8 <5> <4 2->4
+  <6 _->8 <5 \t> <4+ 2>4 <6>2
+  <7 5! _+>4 \bassFigureExtendersOn <8 5! _+>8 <7 5! _+> <6 4>2 %35
+  q8 q \bassFigureExtendersOff <6>8 <5> <9>4 <6>
+  <6 5> <_!>8 <\t> <6 5!>4 <3>8 <\t>
+  <6! 5>4 <5!>8 <\t> <6 5>4 <3>8 <\t>
+  <6 5>2 <5 2>4 <6>8 <5>
+  <2>4 <6> <7 4> <6 \t> %40
+  r <6> <5> <6>
+  <5> <6>2 q8 <5>
+  r4. <6!>8 r2
+  r1*2 %45
+  <4>4 <3> <6>2
+  q q
+  <6 5>4. <2>8 <6> <5> <4 2>4
+  <6>8 <5> <4 2>4 <6>8 <5> <4 2>4
+  <6>8 <5> <4 2>4 <6>8 <5> <4 2>4 %50
+  <6>8 <5> <4 2>4 <6>8 <5>4.
+  <8 3>4 <7- 5>8 <\t 4> <\t 3>4 <6 4>
+  <5 \t> <8 3>8 <7 \t> <6 4>4 <9 7>8 <\t 8>
+  <10 5> <9 \t> <8 6> <\t 5> <9 4> <8 \t> <7 5> <\t 4>
+  <8 3> <7 \t> <6 4> <\t 3> <5 4>4 <\t 3> %55
+  <5>4 <6>8 <5> <4 2>4 <6>8 <7>
+  <4>4 <3>2. %57 finis
+}
 
 % Bassi = {
 %   \relative c {

@@ -289,11 +289,42 @@
   %     \midi { \tempo 2 = 120 }
   %   }
   % }
+  % \bookpart {
+  %   \header {
+  %     number = "X"
+  %   }
+  %   \tocSection "10" "Presto"
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \XViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \XViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "b"
+  %           % \transpose c c,
+  %           \XBassi
+  %         }
+  %       >>
+  %       \new FiguredBass { \XBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 2 = 120 }
+  %   }
+  % }
   \bookpart {
     \header {
-      number = "X"
+      number = "XI"
     }
-    \tocSection "10" "Presto"
+    \tocSection "11" "Allegro"
     \score {
       <<
         \new StaffGroup <<
@@ -301,23 +332,23 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \XViolinoI
+              \XIViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \XViolinoII
+              \XIViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "b"
             % \transpose c c,
-            \XBassi
+            \XIBassi
           }
         >>
-        \new FiguredBass { \XBassFigures }
+        \new FiguredBass { \XIBassFigures }
       >>
       \layout { }
-      \midi { \tempo 2 = 120 }
+      \midi { \tempo 4 = 90 }
     }
   }
 }

@@ -1023,12 +1023,69 @@ XViolinoI = {
   }
 }
 
-% ViolinoI = {
-%   \relative c' {
-%     \clef treble
-%
-%   }
-% }
+XIViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoXI
+    c'2 a4 r8 f32 g a b64 c
+    d8 b g \tuplet 3/2 8 { g16 a b } c8 a f \tuplet 3/2 8 { f16 g a }
+    b8 \tuplet 3/2 8 { g16 a b } c8 b a f16 g a8 f32 g a h
+    c8 g c4 r8 \tuplet 3/2 8 { a16 b c } d d, c'8
+    h \tuplet 3/2 8 { g16 a h } c c, b'8 a4 h %5
+    c8 e,16 f g8 c, c f16 g a8 f
+    f d' b d c c a c
+    d4 g, c8 a16 b c8 a
+    g e16 f g8 g c4 a
+    d g,8 \tuplet 3/2 8 { g16 a b } c8 a f d' %10
+    c4 c'2 b!4~
+    b a2 g4~
+    g f2 e4
+    d2 c8 c32 d e f g8 r
+    R1 %15
+    r2 g
+    e4 r8 c32 d e f64 g a8 f d \tuplet 3/2 8 { d16 e f }
+    g8 e c \tuplet 3/2 8 { c16 d e } f8 c b'^\critnote a
+    g \tuplet 3/2 8 { e16 f g } a a, g'8 f \tuplet 3/2 8 { d16 e f } g g, f'8
+    e \tuplet 3/2 8 { c16 d e } f f, e'8 d \tuplet 3/2 8 { b16 c d } e e, d'8 %20
+    cis \tuplet 3/2 8 { a16 h? cis } d d, d'8~ d cis32 d e f g8 g
+    f4. f8 e2
+    d4 d2 cis4
+    d8 d32 e f g a8 r r4 r8 \tuplet 3/2 8 { g,16 a b }
+    a4 b8 \tuplet 3/2 8 { f16 g a } g4 e %25
+    d d' c2
+    b! \once \tieDashed a~
+    a4 r r2
+    R1
+    d2 b4 r8 g32 a b c64 d %30
+    es8 c a \tuplet 3/2 8 { a16 b c } d8 b g \tuplet 3/2 8 { g16 a b }
+    c8 \tuplet 3/2 8 { a16 b c } d8 c b4~ b8 \tuplet 3/2 8 { g16 a h }
+    c c, b'8 a \tuplet 3/2 8 { f16 g a } b b, a'8 g \tuplet 3/2 8 { es?16 f g }
+    a a, g'8 fis \tuplet 3/2 8 { d16 e fis } g8 g32 a b c d8 d
+    cis2 \tieDashed d~ %35
+    d~ d8 \tieSolid c16 h c8 c
+    c4 h2 a4~
+    a g2 f4~
+    f e d8 \tuplet 3/2 8 { d16 e f } g8 f
+    e c f2 e4 %40
+    f r r2
+    R1
+    f'2 e4 r8 c32 d e f64 g
+    a8 f d \tuplet 3/2 8 { d16 e f } g8 e c \tuplet 3/2 8 { c16 d e }
+    f8 \tuplet 3/2 8 { d16 e f } g8 f e \tuplet 3/2 8 { c16 d e } f4~ %45
+    f e f8 f32 g a b c8 r
+    r2 r4 r8 f,
+    g f e4 f16 f, e'8 d \tuplet 3/2 8 { b16 c d }
+    e e, d'8 c \tuplet 3/2 8 { a16 b c } d d, c'8 b \tuplet 3/2 8 { g16 a b }
+    c c, b'8 a \tuplet 3/2 8 { f16 g a } b b, a'8 g \tuplet 3/2 8 { e16 f g } %50
+    a a, g'8 f \tuplet 3/2 8 { d16 e f } g8 f e4
+    c' b!2 a8 a'
+    g \tuplet 3/2 8 { g16 a b } c c, b'8 a \tuplet 3/2 8 { f16 g a } b b, a'8
+    g \tuplet 3/2 8 { e16 f g } a a, g'8 f \tuplet 3/2 8 { d16 e f } g g, f'8
+    e \tuplet 3/2 8 { c16 d e } f f, e'8 f4 e %55
+    f8 \tuplet 3/2 8 { d16 e f } g g, f'8 e \tuplet 3/2 8 { c16 d e } f8 a,
+    g2 f4 r\fermata \bar "|." %57 finis
+  }
+}
 
 % ViolinoI = {
 %   \relative c' {
