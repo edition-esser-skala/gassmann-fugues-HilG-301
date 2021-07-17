@@ -1,4 +1,4 @@
-# Florian Leopold Gassmann: Fugues in G HilG 301
+# Florian Leopold Gassmann: 12 Fugues HilG 301
 
 Engraving files for LilyPond 2.22.0
 

@@ -1,7 +1,7 @@
 # change the following variables according to the current project
 project = Gassmann_Fugues_HilG_301
 notes = vl1 vl2 b
-scores = full_score vl1 vl2 b
+scores = full_score vl1 vl2 cemb b
 
 # general definitions
 zipname = $(project:%=%_engraving_files)
