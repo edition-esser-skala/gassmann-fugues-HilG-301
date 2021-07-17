@@ -31,6 +31,7 @@
        (stretchability . 0))
 
   systems-per-page = #9
+  page-count = #2
 }
 
 #(set-global-staff-size 17.82)
@@ -45,27 +46,125 @@
 \book {
   \bookpart {
     \header {
-      number = "1"
-      title = "F I R S T"
+      number = "I"
     }
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Violino I"
-          \xxxViolinoI
+          \IViolinoI
         }
       >>
     }
   }
   \bookpart {
     \header {
-      number = "2"
-      title = "S E C O N D"
+      number = "II"
     }
     \score {
       <<
-        \new Staff { \xxxViolinoI }
+        \new Staff { \IIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "III"
+    }
+    \score {
+      <<
+        \new Staff { \IIIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "IV"
+    }
+    \score {
+      <<
+        \new Staff { \IVViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "V"
+    }
+    \score {
+      <<
+        \new Staff { \VViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "VI"
+    }
+    \score {
+      <<
+        \new Staff { \VIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "VII"
+    }
+    \score {
+      <<
+        \new Staff { \VIIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "VIII"
+    }
+    \score {
+      <<
+        \new Staff { \VIIIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "IX"
+    }
+    \score {
+      <<
+        \new Staff { \IXViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "X"
+    }
+    \score {
+      <<
+        \new Staff { \XViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "XI"
+    }
+    \score {
+      <<
+        \new Staff { \XIViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "XII"
+    }
+    \score {
+      <<
+        \new Staff { \XIIViolinoI }
       >>
     }
   }

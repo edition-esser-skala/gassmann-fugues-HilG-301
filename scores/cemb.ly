@@ -39,7 +39,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "cemb"
   }
 }
 
@@ -52,9 +52,10 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Basso"
+          \set Staff.instrumentName = "Cembalo"
           \IBassi
         }
+        \new FiguredBass { \IBassFigures }
       >>
     }
   }
@@ -65,6 +66,7 @@
     \score {
       <<
         \new Staff { \IIBassi }
+        \new FiguredBass { \IIBassFigures }
       >>
     }
   }
@@ -75,6 +77,7 @@
     \score {
       <<
         \new Staff { \IIIBassi }
+        \new FiguredBass { \IIIBassFigures }
       >>
     }
   }
@@ -85,6 +88,7 @@
     \score {
       <<
         \new Staff { \IVBassi }
+        \new FiguredBass { \IVBassFigures }
       >>
     }
   }
@@ -95,6 +99,7 @@
     \score {
       <<
         \new Staff { \VBassi }
+        \new FiguredBass { \VBassFigures }
       >>
     }
   }
@@ -105,6 +110,7 @@
     \score {
       <<
         \new Staff { \VIBassi }
+        \new FiguredBass { \VIBassFigures }
       >>
     }
   }
@@ -115,6 +121,7 @@
     \score {
       <<
         \new Staff { \VIIBassi }
+        \new FiguredBass { \VIIBassFigures }
       >>
     }
   }
@@ -125,6 +132,7 @@
     \score {
       <<
         \new Staff { \VIIIBassi }
+        \new FiguredBass { \VIIIBassFigures }
       >>
     }
   }
@@ -135,6 +143,7 @@
     \score {
       <<
         \new Staff { \IXBassi }
+        \new FiguredBass { \IXBassFigures }
       >>
     }
   }
@@ -145,6 +154,7 @@
     \score {
       <<
         \new Staff { \XBassi }
+        \new FiguredBass { \XBassFigures }
       >>
     }
   }
@@ -155,6 +165,7 @@
     \score {
       <<
         \new Staff { \XIBassi }
+        \new FiguredBass { \XIBassFigures }
       >>
     }
   }
@@ -165,6 +176,7 @@
     \score {
       <<
         \new Staff { \XIIBassi }
+        \new FiguredBass { \XIIBassFigures }
       >>
     }
   }

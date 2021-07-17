@@ -39,7 +39,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "b"
+    instrumentName = "vl 2"
   }
 }
 
@@ -52,8 +52,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Basso"
-          \IBassi
+          \set Staff.instrumentName = "Violino II"
+          \IViolinoII
         }
       >>
     }
@@ -64,7 +64,7 @@
     }
     \score {
       <<
-        \new Staff { \IIBassi }
+        \new Staff { \IIViolinoII }
       >>
     }
   }
@@ -74,7 +74,7 @@
     }
     \score {
       <<
-        \new Staff { \IIIBassi }
+        \new Staff { \IIIViolinoII }
       >>
     }
   }
@@ -84,7 +84,7 @@
     }
     \score {
       <<
-        \new Staff { \IVBassi }
+        \new Staff { \IVViolinoII }
       >>
     }
   }
@@ -94,7 +94,7 @@
     }
     \score {
       <<
-        \new Staff { \VBassi }
+        \new Staff { \VViolinoII }
       >>
     }
   }
@@ -104,7 +104,7 @@
     }
     \score {
       <<
-        \new Staff { \VIBassi }
+        \new Staff { \VIViolinoII }
       >>
     }
   }
@@ -114,7 +114,7 @@
     }
     \score {
       <<
-        \new Staff { \VIIBassi }
+        \new Staff { \VIIViolinoII }
       >>
     }
   }
@@ -124,7 +124,7 @@
     }
     \score {
       <<
-        \new Staff { \VIIIBassi }
+        \new Staff { \VIIIViolinoII }
       >>
     }
   }
@@ -134,7 +134,7 @@
     }
     \score {
       <<
-        \new Staff { \IXBassi }
+        \new Staff { \IXViolinoII }
       >>
     }
   }
@@ -144,7 +144,7 @@
     }
     \score {
       <<
-        \new Staff { \XBassi }
+        \new Staff { \XViolinoII }
       >>
     }
   }
@@ -154,7 +154,7 @@
     }
     \score {
       <<
-        \new Staff { \XIBassi }
+        \new Staff { \XIViolinoII }
       >>
     }
   }
@@ -164,7 +164,7 @@
     }
     \score {
       <<
-        \new Staff { \XIIBassi }
+        \new Staff { \XIIViolinoII }
       >>
     }
   }
