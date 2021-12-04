@@ -1,0 +1,17 @@
+composer:
+  last: Gassmann
+  first: Florian Leopold
+title: 12 Fugues
+id: HilG 301
+genre: misc
+scoring: 2 vl, b, [bc]
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: DK-Kk
+    shelfmark: mu 6211.2030
+    rism: 150205054
+    url: https://soeg.kb.dk/permalink/45KBDK_KGL/1pioq0f/alma99122053937905763
+    license: public domain
+    principal: true
+imslp: 12_Fugues_for_2_Violins_and_Continuo_(Gassmann,_Florian_Leopold)

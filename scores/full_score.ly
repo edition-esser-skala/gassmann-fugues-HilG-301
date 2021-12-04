@@ -1,20 +1,19 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+  system-system-spacing.basic-distance = #20
+  system-system-spacing.minimum-distance = #20
+  systems-per-page = #4
 }
-
-#(set-global-staff-size 15.87)
 
 \book {
   \bookpart {
-    \header {
-      number = "I"
-    }
+    \section "I" "Allabreve"
+    \addTocEntry
     \paper { indent = 2\cm }
-    \tocSection "1" "Allabreve"
     \score {
       <<
         \new StaffGroup <<
@@ -30,7 +29,7 @@
             }
           >>
           \new Staff {
-            \set Staff.instrumentName = "Basso"
+            \set Staff.instrumentName = "Bassi"
             % \transpose c c,
             \IBassi
           }
@@ -42,10 +41,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "II"
-    }
-    \tocSection "2" "Allegro"
+    \section "II" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -73,10 +70,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "III"
-    }
-    \tocSection "3" "Allegro"
+    \section "III" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -104,10 +99,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "IV"
-    }
-    \tocSection "4" "Presto"
+    \section "IV" "Presto"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -135,10 +128,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "V"
-    }
-    \tocSection "5" "Allegro"
+    \section "V" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -166,10 +157,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VI"
-    }
-    \tocSection "6" "Allegro"
+    \section "VI" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -197,10 +186,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VII"
-    }
-    \tocSection "7" "Allabreve"
+    \section "VII" "Allabreve"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -228,10 +215,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VIII"
-    }
-    \tocSection "8" "Allegro"
+    \section "VIII" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -259,10 +244,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "IX"
-    }
-    \tocSection "9" "Presto"
+    \section "IX" "Presto"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -290,10 +273,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "X"
-    }
-    \tocSection "10" "Presto"
+    \section "X" "Presto"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -321,10 +302,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "XI"
-    }
-    \tocSection "11" "Allegro"
+    \section "XI" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -352,10 +331,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "XII"
-    }
-    \tocSection "12" "Presto"
+    \section "XII" "Presto"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<

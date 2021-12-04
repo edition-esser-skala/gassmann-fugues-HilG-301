@@ -1,53 +1,13 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #9
-  page-count = #2
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \Staff
-    instrumentName = "vl 2"
-  }
-}
+#(define option-instrument-name "vl 2")
+\include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "I"
-    }
+    \section "I" "Allabreve"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
@@ -59,9 +19,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "II"
-    }
+    \section "II" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \IIViolinoII }
@@ -69,9 +28,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "III"
-    }
+    \section "III" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \IIIViolinoII }
@@ -79,9 +37,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "IV"
-    }
+    \section "IV" "Presto"
+    \addTocEntry
     \score {
       <<
         \new Staff { \IVViolinoII }
@@ -89,9 +46,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "V"
-    }
+    \section "V" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \VViolinoII }
@@ -99,9 +55,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VI"
-    }
+    \section "VI" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \VIViolinoII }
@@ -109,9 +64,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VII"
-    }
+    \section "VII" "Allabreve"
+    \addTocEntry
     \score {
       <<
         \new Staff { \VIIViolinoII }
@@ -119,9 +73,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VIII"
-    }
+    \section "VIII" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \VIIIViolinoII }
@@ -129,9 +82,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "IX"
-    }
+    \section "IX" "Presto"
+    \addTocEntry
     \score {
       <<
         \new Staff { \IXViolinoII }
@@ -139,9 +91,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "X"
-    }
+    \section "X" "Presto"
+    \addTocEntry
     \score {
       <<
         \new Staff { \XViolinoII }
@@ -149,9 +100,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "XI"
-    }
+    \section "XI" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \XIViolinoII }
@@ -159,9 +109,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "XII"
-    }
+    \section "XII" "Presto"
+    \addTocEntry
     \score {
       <<
         \new Staff { \XIIViolinoII }

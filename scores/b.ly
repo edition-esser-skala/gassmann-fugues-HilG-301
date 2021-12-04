@@ -1,67 +1,27 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
+#(define option-instrument-name "b")
+\include "score_settings/one-staff.ly"
 
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 18)
-       (minimum-distance . 18)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #9
-  page-count = #2
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \Staff
-    instrumentName = "b"
-  }
-}
 
 \book {
   \bookpart {
-    \header {
-      number = "I"
-    }
+    \section "I" "Allabreve"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Basso"
+          \set Staff.instrumentName = "Bassi"
           \IBassi
         }
       >>
     }
   }
   \bookpart {
-    \header {
-      number = "II"
-    }
+    \section "II" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \IIBassi }
@@ -69,9 +29,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "III"
-    }
+    \section "III" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \IIIBassi }
@@ -79,9 +38,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "IV"
-    }
+    \section "IV" "Presto"
+    \addTocEntry
     \score {
       <<
         \new Staff { \IVBassi }
@@ -89,9 +47,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "V"
-    }
+    \section "V" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \VBassi }
@@ -99,9 +56,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VI"
-    }
+    \section "VI" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \VIBassi }
@@ -109,9 +65,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VII"
-    }
+    \section "VII" "Allabreve"
+    \addTocEntry
     \score {
       <<
         \new Staff { \VIIBassi }
@@ -119,9 +74,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "VIII"
-    }
+    \section "VIII" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \VIIIBassi }
@@ -129,9 +83,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "IX"
-    }
+    \section "IX" "Presto"
+    \addTocEntry
     \score {
       <<
         \new Staff { \IXBassi }
@@ -139,9 +92,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "X"
-    }
+    \section "X" "Presto"
+    \addTocEntry
     \score {
       <<
         \new Staff { \XBassi }
@@ -149,9 +101,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "XI"
-    }
+    \section "XI" "Allegro"
+    \addTocEntry
     \score {
       <<
         \new Staff { \XIBassi }
@@ -159,9 +110,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "XII"
-    }
+    \section "XII" "Presto"
+    \addTocEntry
     \score {
       <<
         \new Staff { \XIIBassi }
