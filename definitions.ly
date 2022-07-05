@@ -6,13 +6,13 @@
 \include "ees.ly"
 
 
-tempoI = \tempoMarkup "Allabeve"
+tempoI = \tempoMarkup "Allabreve"
 tempoII = \tempoMarkup "Allegro"
 tempoIII = \tempoMarkup "Allegro"
 tempoIV = \tempoMarkup "Presto"
 tempoV = \tempoMarkup "Allegro"
 tempoVI = \tempoMarkup "Allegro"
-tempoVII = \tempoMarkup "Allabeve"
+tempoVII = \tempoMarkup "Allabreve"
 tempoVIII = \tempoMarkup "Allegro"
 tempoIX = \tempoMarkup "Presto"
 tempoX = \tempoMarkup "Presto"
